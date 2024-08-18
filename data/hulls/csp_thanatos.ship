@@ -1,0 +1,160 @@
+{
+  "hullName": "Thanatos XIV",
+  "hullId": "csp_thanatos",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/csp_thanatos2.png",
+  "style": "LOW_TECH",
+  "height": 144,
+  "width": 132,
+  "center": [66, 67],
+  "collisionRadius": 110,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 107,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fourteenth",
+    "nav_relay"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [5.5, -18]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [5.5, 18]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [42, -36]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 30,
+      "angle": 0,
+      "locations": [42, 36]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": -0,
+      "locations": [-20.5, 28]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 250,
+      "angle": 0,
+      "locations": [-20.5, -28]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        48, -0,
+        50, 2.5,
+        48, 8,
+        50, -4,
+        47.5, -8.5
+      ]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52, 0],
+      "length": 68.5,
+      "width": 30,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-59, -25],
+      "length": 47,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-59, 25],
+      "length": 47,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, -37.5],
+      "length": 34,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-50, 37.5],
+      "length": 34,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -50, -36.5,
+    -62, -47.5,
+    -44, -50,
+    -65.5, -64,
+    -31, -63,
+    2, -57,
+    29, -58.5,
+    76, -46,
+    52.5, -44.5,
+    46, -26.5,
+    63, -14.5,
+    59.5, -0,
+    63, 15,
+    45, 26.5,
+    52.5, 44.5,
+    75, 46.5,
+    33, 58,
+    0, 56,
+    -38.5, 64.5,
+    -65.5, 63.5,
+    -44, 51,
+    -62.5, 47.5,
+    -50, 37.5,
+    -59, 25,
+    -51, 14,
+    -51, -14,
+    -59, -25
+  ]
+}

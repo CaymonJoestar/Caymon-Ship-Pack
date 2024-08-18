@@ -1,0 +1,86 @@
+id,type,frame,magnitude,map,path
+#SHIPS,,,,,
+csp_knifeclaw,ship,,1,normal,graphics/shaders/normal/ships/csp_knifeclaw-normal.png
+csp_Dagclaw,ship,,1,normal,graphics/shaders/normal/ships/csp_Dagclaw-normal.png
+csp_Libera,ship,,1,normal,graphics/shaders/normal/ships/csp_Libera-normal.png
+csp_mini_trident,ship,,1,normal,graphics/shaders/normal/ships/csp_Mini-trident-normal.png
+csp_Quant,ship,,1,normal,graphics/shaders/normal/ships/csp_Quant-normal.png
+csp_ThunderBolt,ship,,1,normal,graphics/shaders/normal/ships/csp_ThunderBolt-normal.png
+csp_fantia,ship,,1,normal,graphics/shaders/normal/ships/csp_fantia-normal.png
+csp_tridentalter,ship,,1,normal,graphics/shaders/normal/ships/csp_Tridentalter-normal.png
+csp_gusto,ship,,1,normal,graphics/shaders/normal/ships/csp_gusto-normal.png
+csp_scattershot,ship,,1,normal,graphics/shaders/normal/ships/csp_scattershot-normal.png
+csp_vicviper,ship,,1,normal,graphics/shaders/normal/ships/csp_ Vicviper-normal.png
+csp_optiondrone,ship,,1,normal,graphics/shaders/normal/ships/csp_optiondrone-normal.png
+csp_falchionb,ship,,1,normal,graphics/shaders/normal/ships/csp_falchionb-normal.png
+csp_lordbritish,ship,,1,normal,graphics/shaders/normal/ships/csp_LordBritish 1-normal.png
+csp_jadeknight,ship,,1,normal,graphics/shaders/normal/ships/csp_Jadeknight-normal.png
+csp_MidlineMechDrone,ship,,1,normal,graphics/shaders/normal/ships/Gun drone 2-normal.png
+csp_ignite,ship,,1,normal,graphics/shaders/normal/ships/csp_ignite-normal.png
+csp_xivlux,ship,,1,normal,graphics/shaders/normal/ships/xiv lux-normal.png
+csp_xivspark,ship,,1,normal,graphics/shaders/normal/ships/xiv spark-normal.png
+csp_xivwasp,ship,,1,normal,graphics/shaders/normal/ships/xiv wasp-normal.png
+csp_xivflash,ship,,1,normal,graphics/shaders/normal/ships/xiv flare-normal.png
+csp_xivclaw,ship,,1,normal,graphics/shaders/normal/ships/xiv claw-normal.png
+csp_verglas,ship,,1,normal,graphics/shaders/normal/ships/xiv verglas-normal.png
+csp_bravais,ship,,1,normal,graphics/shaders/normal/ships/omega_bravais-normal.png
+csp_phasehead,ship,,1,normal,graphics/shaders/normal/ships/csp_phasehead-normal.png
+csp_solarizedflare,ship,,1,normal,graphics/shaders/normal/ships/csp_solarizeflare-normal.png
+csp_bazaarfalcon,ship,,1,normal,graphics/shaders/normal/ships/csp_bazaarfalcon-normal.png
+csp_LGbazaarfalcon,ship,,1,normal,graphics/shaders/normal/ships/csp_bazaarfalconLG-normal.png
+csp_heliadae,ship,,1,normal,graphics/shaders/normal/ships/csp_heliadae-normal.png
+csp_hesperides,ship,,1,normal,graphics/shaders/normal/ships/csp_hesperides-normal.png
+csp_hesperidesp,ship,,1,normal,graphics/shaders/normal/ships/csp_hesperides P-normal.png
+csp_zagreus,ship,,1,normal,graphics/shaders/normal/ships/csp_zagreus-normal.png
+csp_foreshadow,ship,,1,normal,graphics/shaders/normal/ships/csp_Foreshadow 2-normal.png
+csp_Guts,ship,,1,normal,graphics/shaders/normal/ships/csp_Guts improved-normal.png
+csp_zeta,ship,,1,normal,graphics/shaders/normal/ships/csp_zeta-normal.png
+csp_aethon,ship,,1,normal,graphics/shaders/normal/ships/csp_aethon-normal.png
+csp_aethonP,ship,,1,normal,graphics/shaders/normal/ships/csp_aethonP-normal.png
+csp_altergeist,ship,,1,normal,graphics/shaders/normal/ships/csp_altergeist-normal.png
+csp_Phasegon,ship,,1,normal,graphics/shaders/normal/ships/csp_Phasegon-normal.png
+csp_Lanius,ship,,1,normal,graphics/shaders/normal/ships/csp_Lanius-normal.png
+csp_vritra,ship,,1,normal,graphics/shaders/normal/ships/csp_vritra-normal.png
+csp_vicviperpilot,ship,,1,normal,graphics/shaders/normal/ships/csp_ Vicviper-normal.png
+csp_battlephantom,ship,,1,normal,graphics/shaders/normal/ships/csp_battlephantom-normal.png
+csp_shadow,ship,,1,normal,graphics/shaders/normal/ships/csp_shadow-normal.png
+csp_thanatos,ship,,1,normal,graphics/shaders/normal/ships/csp_thanatos-normal.png
+csp_pyramid,ship,,1,normal,"graphics/shaders/normal/ships/What is that, What the fuck is that 1-normal.png"
+csp_cutlet,ship,,1,normal,graphics/shaders/normal/ships/omega_cutlet-normal.png
+csp_shocktrooper,ship,,1,normal,graphics/shaders/normal/ships/csp_shocktrooper-normal.png
+csp_thornbill,ship,,1,normal,graphics/shaders/normal/ships/csp_thornbill-normal.png
+csp_MidlineMech,ship,,1,normal,graphics/shaders/normal/ships/Midline Gun body 2-normal.png
+csp_lowtechmech,ship,,1,normal,graphics/shaders/normal/ships/Lowtech_Body-normal.png
+csp_LG_Mech,ship,,1,normal,graphics/shaders/normal/ships/lion guard main body-normal.png
+csp_advocator,ship,,1,normal,graphics/shaders/normal/ships/csp_advocator-normal.png
+csp_motorhead,ship,,1,normal,graphics/shaders/normal/ships/motorhead_body-normal.png
+csp_xivbrilliant,ship,,1,normal,graphics/shaders/normal/ships/xiv brilliant-normal.png
+csp_xivfulgent,ship,,1,normal,graphics/shaders/normal/ships/xiv fulgrant-normal.png
+csp_xivglimmer,ship,,1,normal,graphics/shaders/normal/ships/xiv Glimmer-normal.png
+csp_xivlumen,ship,,1,normal,graphics/shaders/normal/ships/xiv lumen-normal.png
+csp_xivscintilla,ship,,1,normal,graphics/shaders/normal/ships/xiv remnant destroyer carrier thing-normal.png
+csp_xivcoelum,ship,,1,normal,graphics/shaders/normal/ships/Xiv coelum-normal.png
+csp_ravelinxiv,ship,,1,normal,graphics/shaders/normal/ships/csp_ravelinXIV-normal.png
+csp_aethon_xiv,ship,,1,normal,graphics/shaders/normal/ships/csp_aethon_xiv-normal.png
+csp_phasehead_LG,ship,,1,normal,graphics/shaders/normal/ships/csp_phaseheadLG-normal.png
+csp_phasehead_xiv,ship,,1,normal,graphics/shaders/normal/ships/csp_phaseheadxiv-normal.png
+csp_solarizedflare_LG,ship,,1,normal,graphics/shaders/normal/ships/csp_solarizeflareLG-normal.png
+,,,,,
+#MODULES,,,,,
+csp_lowtech_shoulderL,ship,,1,normal,graphics/shaders/normal/ships/lowtech_shoulderL-normal.png
+csp_lowtech_shoulderR,ship,,1,normal,graphics/shaders/normal/ships/lowtech_shoulderR-normal.png
+csp_lowtech_backpack,ship,,1,normal,graphics/shaders/normal/ships/Lowtech_Backpack-normal.png
+,,,,,
+#DECOS,,,,,
+csp_midline_arm_left,weapon,,1,normal,graphics/shaders/normal/decos/Midline gun arm left-normal.png
+csp_shoulderdecoL,weapon,,1,normal,graphics/shaders/normal/decos/lowtech_shoulderL-normal.png
+csp_shoulderdecoR,weapon,,1,normal,graphics/shaders/normal/decos/lowtech_shoulderR-normal.png
+csp_HeadBeam,weapon,,1,normal,graphics/shaders/normal/decos/Midline Gun Head-normal.png
+csp_piratelance,weapon,,1,normal,graphics/shaders/normal/decos/motorhead_head-normal.png
+csp_motorhead_shoulderLdeco,weapon,,1,normal,graphics/shaders/normal/decos/motorhead_shoulderL-normal.png
+csp_chestplate,weapon,,1,normal,graphics/shaders/normal/decos/midline gun Chestplate-normal.png
+csp_lowtech_head,weapon,,1,normal,graphics/shaders/normal/decos/Lowtech_Head-normal.png
+csp_LGchestplate,weapon,,1,normal,graphics/shaders/normal/decos/lion_guard_chestplate-normal.png
+csp_LGHeadBeam,weapon,,1,normal,graphics/shaders/normal/decos/lion_guard_head-normal.png
+csp_LG_shoulderLdeco,weapon,,1,normal,graphics/shaders/normal/decos/LG ShoulderL-normal.png
+csp_LG_shoulderRdeco,weapon,,1,normal,graphics/shaders/normal/decos/LG ShoulderR-normal.png

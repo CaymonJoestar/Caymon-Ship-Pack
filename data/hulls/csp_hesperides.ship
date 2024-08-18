@@ -1,0 +1,166 @@
+{
+  "hullName": "Hesperides",
+  "hullId": "csp_hesperides",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/csp_hesperides.png",
+  "style": "LOW_TECH",
+  "height": 217,
+  "width": 127,
+  "center": [64, 91.5],
+  "collisionRadius": 153,
+  "shieldCenter": [2, 0.5],
+  "shieldRadius": 135.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "civgrade"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [17.5, -37]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [17.5, 37]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 90,
+      "locations": [67.5, 41]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -90,
+      "locations": [67.5, -41]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [92, 1.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-90, 27.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90, -25.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, 34.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, -32.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, -40.5],
+      "length": 30,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-89.5, 42.5],
+      "length": 30,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 30,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90.5, 10],
+      "length": 48.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-90.5, -10],
+      "length": 48.5,
+      "width": 17,
+      "angle": -180,
+      "contrailSize": 17,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -84, -4,
+    -90.5, -4,
+    -91.5, -4.5,
+    -91.5, -15.5,
+    -84, -15.5,
+    -88, -22.5,
+    -88.5, -48.5,
+    -73.5, -60.5,
+    -47, -63.5,
+    -35, -63.5,
+    -20, -52.5,
+    -11, -52.5,
+    85.5, -51.5,
+    86, -34,
+    100.5, -33.5,
+    110, -17.5,
+    122.5, -10,
+    122, 10,
+    109, 20,
+    100, 36,
+    86, 36,
+    84.5, 53,
+    -10.5, 53.5,
+    -20.5, 53.5,
+    -35, 64.5,
+    -46.5, 64.5,
+    -77, 63,
+    -88, 47,
+    -88, 22.5,
+    -84, 15.5,
+    -91.5, 15.5,
+    -91.5, 4.5,
+    -90.5, 4,
+    -84, 4
+  ]
+}

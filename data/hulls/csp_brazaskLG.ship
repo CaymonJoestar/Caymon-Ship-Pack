@@ -1,0 +1,203 @@
+{
+  "hullName": "Brzask(LG)",
+  "hullId": "csp_brazaskLG",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/csp_dawnLG.png",
+  "style": "MIDLINE",
+  "height": 248,
+  "width": 132,
+  "center": [68, 120],
+  "collisionRadius": 162,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 155,
+  "viewOffset": 0,
+  "builtInMods": [
+    "csp_multi_layered_shielding",
+    "solar_shielding",
+    "andrada_mods"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 175,
+      "angle": 121.5,
+      "locations": [-36, 32.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 159,
+      "angle": -120.5,
+      "locations": [-27, -22]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": 26.5,
+      "locations": [33, 36]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 128,
+      "angle": -31.5,
+      "locations": [52, -17]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 156,
+      "angle": -45,
+      "locations": [67, -44]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 43.5,
+      "locations": [61, 35]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [62, 55]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [109, -40]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [95, 32]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [99, 14]
+    },
+    {
+      "id": "WS0011",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [121, -17]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-116, 28],
+      "length": 12,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-118.5, 17],
+      "length": 23.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-118, -18.5],
+      "length": 23.5,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-119, 6.5],
+      "length": 41,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 13,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-119, -7.5],
+      "length": 41,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-115, -29.5],
+      "length": 14.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    78, -58.5,
+    115, -45,
+    115, -34,
+    128, -27,
+    128, -7,
+    108, 14,
+    97, 23,
+    100, 37.5,
+    84, 38,
+    68, 49,
+    68, 60.5,
+    33, 67,
+    15.5, 52,
+    -13, 40.5,
+    -41.5, 52,
+    -59, 47,
+    -76, 56,
+    -88, 52,
+    -110.5, 55.5,
+    -112, 46.5,
+    -105, 42,
+    -115.5, 33,
+    -116, -32,
+    -106, -44,
+    -112, -46,
+    -110.5, -55.5,
+    -88, -50.5,
+    -80, -56.5,
+    -34.5, -38.5,
+    -11, -39.5,
+    20.5, -56
+  ]
+}

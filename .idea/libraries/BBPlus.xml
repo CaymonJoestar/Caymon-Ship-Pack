@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BBPlus">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../Blade Breaker Plus/jars/BBPlus.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
