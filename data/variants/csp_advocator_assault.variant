@@ -3,7 +3,7 @@
   "hullId": "csp_advocator",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 17,
+  "fluxCapacitors": 13,
   "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
@@ -15,39 +15,43 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "lightag",
-        "WS0002": "lightag"
+        "WS0005": "vulcan",
+        "WS0006": "vulcan"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "vulcan",
-        "WS0004": "vulcan"
+        "WS0009": "devastator"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "sabot",
-        "WS0006": "sabot"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "typhoon"
+        "WS0001": "hellbore"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "arbalest",
-        "WS0009": "arbalest"
+        "WS0002": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "pilum_large"
       }
     }
   ],

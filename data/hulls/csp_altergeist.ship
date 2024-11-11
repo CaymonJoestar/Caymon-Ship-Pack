@@ -12,13 +12,12 @@
   "shieldRadius": 135,
   "viewOffset": 0,
   "builtInMods": [
-    "phasefield",
-    "delicate",
     "hardened_subsystems",
+    "distributed_fire_control",
     "csp_phaseinjector"
   ],
   "builtInWings": [
-    "csp_gusto_wing"
+    "sarissa_wing"
   ],
   "weaponSlots": [
     {
@@ -52,9 +51,9 @@
       "id": "WS 004",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 99,
-      "angle": 0,
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": -2,
       "locations": [19, 80]
     },
     {
@@ -72,16 +71,16 @@
       "type": "MISSILE",
       "mount": "HARDPOINT",
       "arc": 5,
-      "angle": 0,
+      "angle": -0,
       "locations": [47, -60]
     },
     {
       "id": "WS 007",
       "size": "SMALL",
       "type": "BALLISTIC",
-      "mount": "TURRET",
-      "arc": 99,
-      "angle": 0,
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 2,
       "locations": [19, -80]
     },
     {

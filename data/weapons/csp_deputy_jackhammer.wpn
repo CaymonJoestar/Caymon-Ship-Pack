@@ -14,18 +14,13 @@
     0
   ],
   "hardpointOffsets": [
-    36.5,
-    7.5,
-    36.5,
-    2.5,
-    36.5,
-    -2.5
+    38.5,
+    2.5
   ],
   "hardpointAngleOffsets": [
-    0,
-    0,
     0
   ],
+  "renderHints":[RENDER_LOADED_MISSILES],
   "barrelMode": "ALTERNATING",
   "animationType": "SMOKE",
   "smokeSpec": {

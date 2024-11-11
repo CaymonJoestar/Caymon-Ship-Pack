@@ -1,11 +1,11 @@
 {
-    "masterVersionFile":"https://github.com/CaymonJoestar/Caymon-Ship-Pack/releases",
+    "masterVersionFile":"https://raw.githubusercontent.com/CaymonJoestar/Caymon-Ship-Pack/main/Caymon%20Ship%20pack.version",
     "modName":"Caymon's Ship Pack",
     "modThreadId":19712,
     "modVersion":
     {
         "major":1,
         "minor":2,
-        "patch":"2"
+        "patch":"3"
     },
 }

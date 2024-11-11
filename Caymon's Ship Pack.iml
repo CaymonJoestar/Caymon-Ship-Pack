@@ -12,9 +12,6 @@
     <orderEntry type="library" name="MagicLib" level="project" />
     <orderEntry type="library" name="ExerelinCore" level="project" />
     <orderEntry type="library" name="Graphics" level="project" />
-    <orderEntry type="library" name="EternalIronShell" level="project" />
-    <orderEntry type="library" name="BBPlus" level="project" />
-    <orderEntry type="library" name="SEEKER" level="project" />
-    <orderEntry type="library" name="HMI" level="project" />
+    <orderEntry type="library" name="Kotlin-Runtime" level="project" />
   </component>
 </module>

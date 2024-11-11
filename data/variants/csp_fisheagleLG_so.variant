@@ -3,7 +3,7 @@
   "hullId": "csp_fisheagleLG",
   "displayName": "Overdriven",
   "goalVariant": true,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 9,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -22,8 +22,9 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "irpulse",
-        "WS0002": "irpulse"
+        "WS0001": "mininglaser",
+        "WS0002": "mininglaser",
+        "WS0003": "vulcan"
       }
     },
     {

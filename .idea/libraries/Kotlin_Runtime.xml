@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="SEEKER">
+  <library name="Kotlin-Runtime">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../SEEKER_UC/jar/SEEKER.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../LazyLib/jars/lib/Kotlin-Runtime.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

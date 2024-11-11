@@ -3,8 +3,8 @@
   "hullId": "csp_advocator",
   "displayName": "Defense",
   "goalVariant": true,
-  "fluxCapacitors": 30,
-  "fluxVents": 4,
+  "fluxCapacitors": 19,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -12,49 +12,47 @@
   ],
   "weaponGroups": [
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "vulcan"
+        "WS0001": "hellbore"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "lightmg",
-        "WS0004": "lightmg"
+        "WS0005": "vulcan",
+        "WS0006": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "breach",
-        "WS0006": "breach"
+        "WS0007": "locust"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0008": "shredder",
-        "WS0009": "shredder"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0007": "pilum"
+        "WS0008": "devastator",
+        "WS0009": "devastator"
       }
     }
   ],
   "modules": [],
   "wings": [
-    "warthog_wing",
-    "warthog_wing",
-    "hoplon_wing"
+    "broadsword_wing",
+    "broadsword_wing",
+    "perdition_wing"
   ]
 }

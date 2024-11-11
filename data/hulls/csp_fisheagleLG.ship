@@ -4,9 +4,9 @@
   "hullSize": "FRIGATE",
   "spriteName": "graphics/ships/csp_fisheagle LG.png",
   "style": "MIDLINE",
-  "height": 104,
-  "width": 86,
-  "center": [43, 54],
+  "height": 113,
+  "width": 90,
+  "center": [45, 50],
   "collisionRadius": 75.5,
   "shieldCenter": [0, -0],
   "shieldRadius": 71.5,
@@ -25,7 +25,7 @@
       "mount": "TURRET",
       "arc": 205,
       "angle": 90,
-      "locations": [-10, 28]
+      "locations": [3, 28]
     },
     {
       "id": "WS0002",
@@ -34,7 +34,7 @@
       "mount": "TURRET",
       "arc": 205,
       "angle": -90,
-      "locations": [-10, -28]
+      "locations": [3, -28]
     },
     {
       "id": "WS0005",
@@ -43,7 +43,7 @@
       "mount": "TURRET",
       "arc": 270,
       "angle": 0,
-      "locations": [-12, 0]
+      "locations": [1, 0]
     },
     {
       "id": "WS0006",
@@ -52,7 +52,7 @@
       "mount": "HARDPOINT",
       "arc": 7,
       "angle": 0,
-      "locations": [33, 0]
+      "locations": [47, -0]
     },
     {
       "id": "WS0008",
@@ -61,7 +61,7 @@
       "mount": "HARDPOINT",
       "arc": 7,
       "angle": 0,
-      "locations": [20, 25]
+      "locations": [33, 25]
     },
     {
       "id": "WS0009",
@@ -70,20 +70,29 @@
       "mount": "HARDPOINT",
       "arc": 7,
       "angle": -0,
-      "locations": [20, -25]
+      "locations": [33, -25]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 205,
+      "angle": 180,
+      "locations": [-23, -0]
     }
   ],
   "engineSlots": [
     {
-      "location": [-45.5, 0.5],
-      "length": 58,
-      "width": 17,
+      "location": [-41, -0],
+      "length": 44.5,
+      "width": 15,
       "angle": 180,
-      "contrailSize": 17,
+      "contrailSize": 15,
       "style": "MIDLINE"
     },
     {
-      "location": [-53, -16],
+      "location": [-48, -18],
       "length": 50,
       "width": 16,
       "angle": 180,
@@ -91,7 +100,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-53, 16],
+      "location": [-48, 17],
       "length": 50,
       "width": 16,
       "angle": -180,
@@ -100,29 +109,29 @@
     }
   ],
   "bounds": [
-    43, -4,
-    49, -4,
-    49, -10.5,
-    28, -18,
-    24, -30,
-    10, -30.5,
-    5, -40,
-    -30, -41.5,
-    -39, -31,
-    -52.5, -29,
-    -53, -11,
-    -46, -10,
-    -46, 10,
-    -53, 11,
-    -53, 27,
-    -39, 31,
-    -30, 41.5,
-    5.5, 41.5,
-    10, 30.5,
-    23.5, 30,
-    26, 20.5,
-    49, 11,
-    49, 4,
-    43, 4
+    55.5, -3,
+    63, -3,
+    63, -11,
+    40, -18.5,
+    39, -29,
+    29, -37,
+    11.5, -38.5,
+    1, -45,
+    -22, -40,
+    -49, -23.5,
+    -49, -11,
+    -42, -10,
+    -42, 10,
+    -49, 11,
+    -49, 24,
+    -18, 41,
+    0, 45,
+    15, 37,
+    29, 37,
+    36, 31,
+    43, 17,
+    63, 10,
+    63, 3,
+    55.5, 3
   ]
 }

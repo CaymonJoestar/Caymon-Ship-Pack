@@ -5,8 +5,8 @@
   "spriteName": "graphics/ships/csp_bonnetheadLG.png",
   "style": "MIDLINE",
   "height": 194,
-  "width": 186,
-  "center": [93, 102.5],
+  "width": 182,
+  "center": [91, 97.5],
   "collisionRadius": 144,
   "shieldCenter": [0, -0],
   "shieldRadius": 135.5,
@@ -24,7 +24,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 90,
-      "locations": [15.5, 36]
+      "locations": [20.5, 38]
     },
     {
       "id": "WS0008",
@@ -33,7 +33,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": -90.010002,
-      "locations": [15.5, -36]
+      "locations": [20.5, -38]
     },
     {
       "id": "WS0001",
@@ -42,7 +42,7 @@
       "mount": "HARDPOINT",
       "arc": 5.01,
       "angle": 0,
-      "locations": [79.5, -48]
+      "locations": [84.5, -48]
     },
     {
       "id": "WS0002",
@@ -51,7 +51,7 @@
       "mount": "HARDPOINT",
       "arc": 5,
       "angle": -0,
-      "locations": [79.5, 48]
+      "locations": [84.5, 48]
     },
     {
       "id": "WS0003",
@@ -60,7 +60,7 @@
       "mount": "TURRET",
       "arc": 120,
       "angle": 22.5,
-      "locations": [56.5, 48]
+      "locations": [61.5, 48]
     },
     {
       "id": "WS0004",
@@ -69,7 +69,7 @@
       "mount": "TURRET",
       "arc": 120.010002,
       "angle": -22.5,
-      "locations": [56.5, -48]
+      "locations": [61.5, -48]
     },
     {
       "id": "WS0009",
@@ -78,7 +78,7 @@
       "mount": "TURRET",
       "arc": 235,
       "angle": 135,
-      "locations": [-31.5, 29]
+      "locations": [-26.5, 29]
     },
     {
       "id": "WS0010",
@@ -87,7 +87,7 @@
       "mount": "TURRET",
       "arc": 235,
       "angle": -135,
-      "locations": [-31.5, -29]
+      "locations": [-26.5, -29]
     },
     {
       "id": "WS0005",
@@ -96,7 +96,7 @@
       "mount": "TURRET",
       "arc": 180,
       "angle": 45,
-      "locations": [51.5, 12]
+      "locations": [56.5, 12]
     },
     {
       "id": "WS0006",
@@ -105,12 +105,12 @@
       "mount": "TURRET",
       "arc": 180.009995,
       "angle": -45,
-      "locations": [51.5, -12]
+      "locations": [56.5, -12]
     }
   ],
   "engineSlots": [
     {
-      "location": [-101.5, 36.5],
+      "location": [-96.5, 36.5],
       "length": 65.5,
       "width": 26,
       "angle": 180,
@@ -118,7 +118,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-101.5, -36.5],
+      "location": [-96.5, -36.5],
       "length": 65.5,
       "width": 26,
       "angle": -180,
@@ -126,7 +126,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-100.5, 55],
+      "location": [-95.5, 55],
       "length": 40.5,
       "width": 14,
       "angle": 180,
@@ -134,7 +134,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-100.5, -55],
+      "location": [-95.5, -55],
       "length": 40.5,
       "width": 14,
       "angle": -180,
@@ -142,7 +142,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-99.5, 66.5],
+      "location": [-94.5, 66.5],
       "length": 30,
       "width": 10,
       "angle": 176,
@@ -150,7 +150,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-99.5, -66.5],
+      "location": [-94.5, -66.5],
       "length": 30,
       "width": 10,
       "angle": -176,
@@ -158,7 +158,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-96.5, 77],
+      "location": [-91.5, 77],
       "length": 30,
       "width": 10,
       "angle": 173,
@@ -166,7 +166,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-96.5, -77],
+      "location": [-91.5, -77],
       "length": 30,
       "width": 10,
       "angle": -173,
@@ -175,31 +175,31 @@
     }
   ],
   "bounds": [
-    80, 23.5,
-    74, 31.5,
-    88, 35.5,
-    88, 60.5,
-    58, 69.5,
-    38, 63.5,
-    28, 39.5,
-    6, 39.5,
-    -11, 68.5,
-    -76.5, 89.5,
-    -94.5, 80,
-    -99, 29.5,
-    -46, 8.5,
-    -46, -8.5,
-    -99, -29.5,
-    -94.5, -80,
-    -76.5, -89.5,
-    -11, -68.5,
-    6, -39.5,
-    28, -39.5,
-    38, -63.5,
-    58, -69.5,
-    88, -60.5,
-    88, -35.5,
-    74, -31.5,
-    80, -23.5
+    85.5, 25,
+    80.5, 29.5,
+    90.5, 35.5,
+    90.5, 60.5,
+    77.5, 70,
+    42.5, 70,
+    33.5, 45,
+    9.5, 45,
+    -8.5, 68.5,
+    -74, 89.5,
+    -92, 80,
+    -96.5, 29.5,
+    -43.5, 8.5,
+    -43.5, -8.5,
+    -96.5, -29.5,
+    -92, -80,
+    -74, -89.5,
+    -8.5, -68.5,
+    12, -45,
+    29.5, -45,
+    42.5, -70,
+    77.5, -70,
+    90.5, -60.5,
+    90.5, -35.5,
+    80.5, -30,
+    85.5, -25
   ]
 }
