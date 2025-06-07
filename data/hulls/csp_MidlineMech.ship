@@ -22,7 +22,8 @@
     "WS0001": "csp_midline_shoulderLdeco",
     "WS0002": "csp_midline_shoulderRdeco",
     "WS0003": "csp_HeadBeam",
-    "WS0008": "csp_chestplate"
+    "WS0008": "csp_chestplate",
+    "WS0010": "csp_midline_torsodeco"
   },
   "weaponSlots": [
     {
@@ -33,16 +34,16 @@
       "arc": 0,
       "angle": 0,
       "locations": [-11, -36],
-      "renderOrderMod": 100
+      "renderOrderMod": 400
     },
     {
       "id": "WS0004",
       "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 70,
-      "angle": 0,
-      "locations": [10, 34]
+      "arc": 30,
+      "angle": 5,
+      "locations": [11, 35]
     },
     {
       "id": "WS0001",
@@ -52,7 +53,7 @@
       "arc": 70,
       "angle": 0,
       "locations": [-11, 32],
-      "renderOrderMod": 100
+      "renderOrderMod": 400
     },
     {
       "id": "WS0005",
@@ -62,7 +63,7 @@
       "arc": 90,
       "angle": 0,
       "locations": [-3, 14.5],
-      "renderOrderMod": 200
+      "renderOrderMod": 500
     },
     {
       "id": "WS0006",
@@ -72,7 +73,7 @@
       "arc": 90,
       "angle": -0,
       "locations": [-3, -17.5],
-      "renderOrderMod": 100
+      "renderOrderMod": 500
     },
     {
       "id": "WS0007",
@@ -81,16 +82,17 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [19, -1.5]
+      "locations": [19, -1.5],
+      "renderOrderMod": 200
     },
     {
       "id": "WS0009",
       "size": "LARGE",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 15,
-      "angle": 0,
-      "locations": [13, -36]
+      "arc": 30,
+      "angle": -5,
+      "locations": [13.5, -37]
     },
     {
       "id": "WS0008",
@@ -99,7 +101,8 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [11, -1.5]
+      "locations": [11, -1.5],
+      "renderOrderMod": 300
     },
     {
       "id": "WS0003",
@@ -109,7 +112,17 @@
       "arc": 90,
       "angle": 0,
       "locations": [-3.5, -0.5],
-      "renderOrderMod": 200
+      "renderOrderMod": 600
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-5.5, -1.5],
+      "renderOrderMod": 100
     }
   ],
   "engineSlots": [

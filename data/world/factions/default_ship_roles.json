@@ -108,6 +108,9 @@
 		"csp_owlLG_assault":3,
 		"csp_viperlg_standard":4,
 		"csp_viperlg_elite":3,
+		"csp_stheno_standard":5,
+		"csp_stheno_assault":4,
+		"csp_stheno_beamer":4,
 	},
 
 	"combatCapital":{

@@ -15,7 +15,7 @@
   "tags":["lions_guard"],
   "hullDesignation": "Destroyer",
   "hullName": "Phasehead (LG)",
-  "manufacturer": "",
+  "manufacturer": "Lion's Guard",
   "ordnancePoints": 120,
   "restoreToBaseHull": false,
   "skinHullId": "csp_phasehead_LG",

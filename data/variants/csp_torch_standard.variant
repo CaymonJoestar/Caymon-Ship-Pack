@@ -3,22 +3,24 @@
   "hullId": "csp_torch",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 39,
-  "fluxVents": 14,
+  "fluxCapacitors": 25,
+  "fluxVents": 35,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "expanded_deck_crew",
     "hardenedshieldemitter",
-    "advancedoptics"
+    "targetingunit"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0009": "harpoonpod",
-        "WS0010": "harpoonpod"
+        "WS0009": "swarmer",
+        "WS0010": "swarmer",
+        "WS0015": "swarmer",
+        "WS0016": "swarmer"
       }
     },
     {
@@ -30,13 +32,33 @@
       }
     },
     {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "autopulse",
+        "WS0012": "autopulse"
+      }
+    },
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "vulcan",
-        "WS0004": "vulcan",
-        "WS0005": "pdlaser",
-        "WS0006": "pdlaser",
+        "WS0013": "pdlaser",
+        "WS0014": "pdlaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "flak",
+        "WS0018": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
         "WS0007": "pdlaser",
         "WS0008": "pdlaser"
       }
@@ -45,40 +67,15 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "heavyburst",
-        "WS0012": "heavyburst"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0013": "vulcan",
-        "WS0014": "vulcan"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0015": "pdlaser",
-        "WS0016": "pdlaser",
-        "WS0017": "pdlaser",
-        "WS0018": "pdlaser"
-      }
-    },
-    {
-      "autofire": false,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0019": "typhoon"
+        "WS0003": "railgun",
+        "WS0004": "railgun"
       }
     }
   ],
   "modules": [],
   "wings": [
     "csp_ignite_wing",
-    "csp_ignite_wing",
+    "lux_wing",
     "lux_wing",
     "lux_wing",
     "spark_wing",

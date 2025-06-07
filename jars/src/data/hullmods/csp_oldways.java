@@ -18,41 +18,41 @@ public class csp_oldways extends BaseHullMod {
     {
         LEFT_SELECTOR.put(0, "csp_machinegunrifle");
         LEFT_SELECTOR.put(1, "csp_mjoniorlowtecharm");
-        LEFT_SELECTOR.put(2, "csp_phasechargearm");
+        LEFT_SELECTOR.put(2, "csp_anderssonarm");
     }
     
     public Map<Integer,String> RIGHT_SELECTOR = new HashMap<>();
     {
         RIGHT_SELECTOR.put(0, "csp_assaultrifle");
         RIGHT_SELECTOR.put(1, "csp_rynexarm");
-        RIGHT_SELECTOR.put(2, "csp_swarmeram");
+        RIGHT_SELECTOR.put(2, "csp_maglevarm");
     }
     
     private final Map<String, Integer> SWITCH_TO_LEFT = new HashMap<>();
     {
         SWITCH_TO_LEFT.put("csp_machinegunrifle",1);
         SWITCH_TO_LEFT.put("csp_mjoniorlowtecharm",2);
-        SWITCH_TO_LEFT.put("csp_phasechargearm",0);
+        SWITCH_TO_LEFT.put("csp_anderssonarm",0);
     }
 	
     private final Map<String, Integer> SWITCH_TO_RIGHT = new HashMap<>();
     {
 		SWITCH_TO_RIGHT.put("csp_assaultrifle",1);
         SWITCH_TO_RIGHT.put("csp_rynexarm",2);
-        SWITCH_TO_RIGHT.put("csp_swarmeram",0);
+        SWITCH_TO_RIGHT.put("csp_maglevarm",0);
     }
     
     private final Map<Integer,String> LEFTSWITCH = new HashMap<>();
     {
         LEFTSWITCH.put(0,"csp_selector_machinerifle");
         LEFTSWITCH.put(1,"csp_selector_LightMjolnir");
-        LEFTSWITCH.put(2,"csp_selector_proxcharge");
+        LEFTSWITCH.put(2,"csp_selector_andersson");
     }
     private final Map<Integer,String> RIGHTSWITCH = new HashMap<>();
     {
         RIGHTSWITCH.put(0,"csp_selector_assaultrifle");
         RIGHTSWITCH.put(1,"csp_selector_rynex");
-        RIGHTSWITCH.put(2,"csp_selector_swarmerarm");
+        RIGHTSWITCH.put(2,"csp_selector_maglev");
     }    
     
     private final String leftslotID = "WS0001";

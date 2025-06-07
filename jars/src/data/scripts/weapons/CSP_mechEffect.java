@@ -15,10 +15,10 @@ public class CSP_mechEffect implements EveryFrameWeaponEffectPlugin{
     private boolean runOnce=false, lockNloaded=false;
     private ShipSystemAPI system;
     private ShipAPI ship;
-    private WeaponAPI csp_midline_arm_left,csp_midline_shoulderLdeco;
+    private WeaponAPI csp_midline_arm_left,csp_midline_shoulderLdeco,csp_midline_shoulderRdeco,csp_midline_arm_right;
     
     private float overlap=0, heat=0;
-    private final float LEFT_ARM_OFFSET=-75,MAX_OVERLAP=10;
+    private final float LEFT_ARM_OFFSET=-75, RIGHT_ARM_OFFSET = -25,MAX_OVERLAP=10;
     
     
     @Override
@@ -34,6 +34,19 @@ public class CSP_mechEffect implements EveryFrameWeaponEffectPlugin{
                     case "WS0004":
                         csp_midline_arm_left = w;
                         break;
+                    case "WS0009":
+                        csp_midline_arm_right = w;
+                        break;
+                    case "WS0001":
+                        if(csp_midline_shoulderLdeco == null) {
+                            csp_midline_shoulderLdeco = w;
+                        }
+                        break;
+                    case "WS0002":
+                        if(csp_midline_shoulderRdeco == null) {
+                            csp_midline_shoulderRdeco = w;
+                        }
+                        break;
                    // case "D_PAULDRONL" :
                     //    pauldronL=w;
                      //   break;
@@ -44,7 +57,8 @@ public class CSP_mechEffect implements EveryFrameWeaponEffectPlugin{
         if (engine.isPaused()) {
             return;
         }
-        
+        ship.syncWeaponDecalsWithArmorDamage();
+
 		//this stuff determines how the arm/pauldron move while accelerating/decelerating or moving backwards
         if(ship.getEngineController().isAccelerating()){
             if(overlap>(MAX_OVERLAP-0.1f)){
@@ -85,5 +99,17 @@ public class CSP_mechEffect implements EveryFrameWeaponEffectPlugin{
 			
 			weapon.setCurrAngle(global+MathUtils.getShortestRotation(global,csp_midline_arm_left.getCurrAngle())*0.6f);
 		}
+        if(csp_midline_arm_right != null)
+        {
+            csp_midline_arm_right.setCurrAngle(
+                    global
+                            +
+                            ((aim+RIGHT_ARM_OFFSET)*sinceB)
+                            +
+                            ((overlap+aim*0.25f)*(1-sinceB))
+            );
+
+            weapon.setCurrAngle(global+MathUtils.getShortestRotation(global,csp_midline_arm_right.getCurrAngle())*0.6f);
+        }
     }
 }

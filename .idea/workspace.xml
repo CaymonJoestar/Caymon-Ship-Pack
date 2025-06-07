@@ -17,26 +17,52 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="1qW63ZqBAp7oSCGCd0VRkkcnPUq" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LazyLib/jars/lib/Kotlin-Runtime.jar" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Starsector/mods/Caymon's Ship Pack",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.kotlinCompiler"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="data.skills" />
       <recent name="data.hullmods" />
+      <recent name="data.scripts.weapons" />
       <recent name="data.shipsystems.scripts" />
       <recent name="data.scripts.customstart" />
     </key>
+  </component>
+  <component name="ScriptDefinitionSettings">
+    <option name="settings">
+      <list>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="org.jetbrains.kotlin.mainKts.MainKtsScript" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="kotlin.Any" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="kotlin.script.templates.standard.ScriptTemplateWithBindings" />
+        </ScriptDefinitionSetting>
+        <ScriptDefinitionSetting>
+          <option name="definitionId" value="ideBundledScriptDefinition" />
+        </ScriptDefinitionSetting>
+      </list>
+    </option>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,5 +74,9 @@
       <updated>1617182802144</updated>
     </task>
     <servers />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

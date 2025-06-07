@@ -3,7 +3,6 @@
   "specClass": "beam",
   "type": "DECORATIVE",
   "size": "SMALL",
-  "everyFrameEffect": "data.scripts.weapons.CSP_mechEffect",
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/Midline_Gun_arm_ShoulderLdeco2.png",

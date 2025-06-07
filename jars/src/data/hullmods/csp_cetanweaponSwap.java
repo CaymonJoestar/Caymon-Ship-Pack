@@ -15,7 +15,7 @@ public class csp_cetanweaponSwap extends BaseHullMod {
         
     public  Map<Integer,String> LEFT_SELECTOR = new HashMap<>();
     {
-        LEFT_SELECTOR.put(0, "csp_midline_arm_left");
+        LEFT_SELECTOR.put(0, "csp_ftypearm");
         LEFT_SELECTOR.put(1, "csp_squallburst");
         LEFT_SELECTOR.put(2, "csp_devesatorarm");
     }
@@ -29,7 +29,7 @@ public class csp_cetanweaponSwap extends BaseHullMod {
     
     private final Map<String, Integer> SWITCH_TO_LEFT = new HashMap<>();
     {
-        SWITCH_TO_LEFT.put("csp_midline_arm_left",1);
+        SWITCH_TO_LEFT.put("csp_ftypearm",1);
         SWITCH_TO_LEFT.put("csp_squallburst",2);
         SWITCH_TO_LEFT.put("csp_devesatorarm",0);
     }
@@ -43,7 +43,7 @@ public class csp_cetanweaponSwap extends BaseHullMod {
     
     private final Map<Integer,String> LEFTSWITCH = new HashMap<>();
     {
-        LEFTSWITCH.put(0,"csp_selector_normalarm");
+        LEFTSWITCH.put(0,"csp_selector_ftype");
         LEFTSWITCH.put(1,"csp_selector_squall");
         LEFTSWITCH.put(2,"csp_selector_devesator");
     }
