@@ -37,25 +37,29 @@ class RaptorpackDoctrine : SCBaseSkillPlugin() {
     override fun applyEffectsBeforeShipCreation(data: SCData, stats: MutableShipStatsAPI?, variant: ShipVariantAPI, hullSize: ShipAPI.HullSize?, id: String?) {
         var member = stats!!.fleetMember ?: return
         if (hullSize == ShipAPI.HullSize.CRUISER) {
+            val baseCost = stats.suppliesToRecover.baseValue
+            val reduction = Math.min(DP_REDUCTION_MAX, baseCost * DP_REDUCTION)
+
             stats.damageToCruisers.modifyPercent(id, DAMAGE_TO_LARGER_BONUS)
             stats.damageToCapital.modifyPercent(id, DAMAGE_TO_LARGER_BONUS)
 
             stats.peakCRDuration.modifyPercent(id, PEAK_TIME_BONUS)
+            if (stats.fleetMember == null || stats.fleetMember.variant == null || !stats.fleetMember.variant.hasHullMod(HullMods.NEURAL_INTERFACE) && !stats.fleetMember.variant.hasHullMod(HullMods.NEURAL_INTEGRATOR)) {
+                stats.dynamic.getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyFlat(RAPTORPACK_DOCTRINE_DP_REDUCTION_ID, -reduction)
+            }
         }
         if (hullSize == ShipAPI.HullSize.DESTROYER) {
+            val baseCost = stats.suppliesToRecover.baseValue
+            val reduction = Math.min(DP_REDUCTION_MAX, baseCost * DP_REDUCTION)
+
             stats.damageToCruisers.modifyPercent(id, DAMAGE_TO_LARGER_BONUS_DEST)
             stats.damageToCapital.modifyPercent(id, DAMAGE_TO_LARGER_BONUS_DEST)
 
             stats.peakCRDuration.modifyPercent(id, PEAK_TIME_BONUS_DEST)
+            if (stats.fleetMember == null || stats.fleetMember.variant == null || !stats.fleetMember.variant.hasHullMod(HullMods.NEURAL_INTERFACE) && !stats.fleetMember.variant.hasHullMod(HullMods.NEURAL_INTEGRATOR)) {
+                stats.dynamic.getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyFlat(RAPTORPACK_DOCTRINE_DP_REDUCTION_ID, -reduction)
+            }
         }
-
-        val baseCost = stats.suppliesToRecover.baseValue
-        val reduction = Math.min(DP_REDUCTION_MAX, baseCost * DP_REDUCTION)
-
-        if (stats.fleetMember == null || stats.fleetMember.variant == null || !stats.fleetMember.variant.hasHullMod(HullMods.NEURAL_INTERFACE) && !stats.fleetMember.variant.hasHullMod(HullMods.NEURAL_INTEGRATOR)) {
-            stats.dynamic.getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyFlat(RAPTORPACK_DOCTRINE_DP_REDUCTION_ID, -reduction)
-        }
-
     }
 
     override fun applyEffectsAfterShipCreation(data: SCData, ship: ShipAPI?, variant: ShipVariantAPI, id: String?) {
