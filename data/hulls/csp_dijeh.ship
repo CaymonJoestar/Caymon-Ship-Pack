@@ -2,11 +2,11 @@
   "hullName": "Dijeh",
   "hullId": "csp_dijeh",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/csp_lowtechmech.png",
+  "spriteName": "graphics/ships/csp_mech_hips.png",
   "style": "LOW_TECH",
-  "height": 46,
-  "width": 58,
-  "center": [29, 22],
+  "height": 30,
+  "width": 22,
+  "center": [11, 16],
   "collisionRadius": 62,
   "shieldCenter": [0, -0],
   "shieldRadius": 60.5,
@@ -17,58 +17,58 @@
     "csp_oldways"
   ],
   "builtInWeapons": {
-    "WS0003": "csp_lowtechmech_head",
-    "WS0005": "csp_lowtechmech_shoulderR",
-    "WS0006": "csp_lowtechmech_shoulderL",
-    "WS0007": "csp_lowtechmech_deco"
+    "D_PAULDRONL": "csp_lowtechmech_shoulderR",
+    "D_PAULDRONR": "csp_lowtechmech_shoulderL",
+    "E_HEAD": "csp_lowtechmech_head",
+    "WS0007": "csp_diazbody_deco"
   },
   "weaponSlots": [
     {
-      "id": "WS0001",
+      "id": "AGUN",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 35,
-      "angle": 5,
-      "locations": [6.5, 23.5]
+      "angle": 10,
+      "locations": [12, 22]
     },
     {
-      "id": "WS0002",
+      "id": "AGUN2",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 35,
-      "angle": -5,
-      "locations": [6.5, -23.5]
+      "angle": -10,
+      "locations": [12, -22]
     },
     {
-      "id": "WS0003",
+      "id": "E_HEAD",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 60,
       "angle": 0,
-      "locations": [-2, -0],
+      "locations": [-3.5, 0],
       "renderOrderMod": 600
     },
     {
-      "id": "WS0005",
+      "id": "D_PAULDRONL",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 60,
+      "arc": 360,
       "angle": 0,
-      "locations": [-9, -25.5],
+      "locations": [-10.5, -25],
       "renderOrderMod": 200
     },
     {
-      "id": "WS0006",
+      "id": "D_PAULDRONR",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 60,
+      "arc": 360,
       "angle": 0,
-      "locations": [-9.5, 23.5],
+      "locations": [-11, 23.5],
       "renderOrderMod": 200
     },
     {
@@ -76,9 +76,9 @@
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 60,
+      "arc": 80,
       "angle": 0,
-      "locations": [1, -0],
+      "locations": [-0.5, 0],
       "renderOrderMod": 300
     },
     {
@@ -88,7 +88,7 @@
       "mount": "TURRET",
       "arc": 40,
       "angle": 0,
-      "locations": [-13.5, -17],
+      "locations": [-15, -17],
       "renderOrderMod": 500
     },
     {
@@ -98,7 +98,7 @@
       "mount": "TURRET",
       "arc": 40,
       "angle": 0,
-      "locations": [-14, 19],
+      "locations": [-15.5, 19],
       "renderOrderMod": 500
     },
     {
@@ -106,14 +106,14 @@
       "size": "SMALL",
       "type": "MISSILE",
       "mount": "HARDPOINT",
-      "arc": 25,
+      "arc": 10,
       "angle": 0,
-      "locations": [7.5, 5.5]
+      "locations": [9, 7]
     }
   ],
   "engineSlots": [
     {
-      "location": [-18, -3.5],
+      "location": [-18.5, -4],
       "length": 15.5,
       "width": 8,
       "angle": 180,
@@ -121,7 +121,7 @@
       "style": "LOW_TECH"
     },
     {
-      "location": [-18, 3.5],
+      "location": [-18.5, 4],
       "length": 15.5,
       "width": 8,
       "angle": -180,
@@ -129,7 +129,7 @@
       "style": "LOW_TECH"
     },
     {
-      "location": [-21, -11.5],
+      "location": [-21.5, -12],
       "length": 17,
       "width": 4,
       "angle": 180,
@@ -137,7 +137,7 @@
       "style": "LOW_TECH"
     },
     {
-      "location": [-21, 11.5],
+      "location": [-21.5, 12],
       "length": 17,
       "width": 4,
       "angle": -180,
@@ -145,7 +145,7 @@
       "style": "LOW_TECH"
     },
     {
-      "location": [-22, -17.5],
+      "location": [-22.5, -18],
       "length": 17,
       "width": 4,
       "angle": 180,
@@ -153,7 +153,7 @@
       "style": "LOW_TECH"
     },
     {
-      "location": [-22, 17.5],
+      "location": [-22.5, 18],
       "length": 17,
       "width": 4,
       "angle": -180,
@@ -162,17 +162,12 @@
     }
   ],
   "bounds": [
-    -20, 28.5,
-    -7, 19,
-    3, 19,
-    24, -0,
-    3, -19,
-    -7, -19,
-    -20, -28.5,
-    -22, -17,
-    -21, -8.5,
-    -16, 0,
-    -21, 8.5,
-    -22, 17
+    -13, -5,
+    -6, -9,
+    6, -9,
+    12, 0,
+    6, 9,
+    -6, 9,
+    -13, 5
   ]
 }

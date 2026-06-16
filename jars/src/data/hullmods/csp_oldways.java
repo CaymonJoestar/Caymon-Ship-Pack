@@ -55,8 +55,8 @@ public class csp_oldways extends BaseHullMod {
         RIGHTSWITCH.put(2,"csp_selector_maglev");
     }    
     
-    private final String leftslotID = "WS0001";
-    private final String rightslotID = "WS0002";
+    private final String leftslotID = "AGUN";
+    private final String rightslotID = "AGUN2";
     
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) 

@@ -6,9 +6,10 @@ Assault Mode Activate!,csp_assaultmode_activate,,,,,,,,,,1,6,1,5,,,,,,,,,,,,grap
 Improv Missile Forge,csp_forgevats,,,,,,0.6,,1,0.02,1,0,0,0,,,,,,,,,,,,graphics/icons/hullsys/missile_autoforge.png
 Point Defense Drones,drone_pd,,,,,,,,20,,0,,0,0,,,,,,,,,,,,
 Trans-am,csp_transam,1,,,,,0.25,,,,4,30,2,150,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
+Trans-am Burst,csp_transamV2,1,,,,,0.10,,,,4,45,4,120,,,,,,,,,,,,graphics/icons/hullsys/temporal_shell.png
 Gunship Call In,csp_Gunship_Call_in,,,,,,,,2,0.03,0,,0,0,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
 Drone Bodyguards,csp_ravelin_drone_guards,,,,,,,,2,,0,,0,0,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_mid.png
-Improv Damper Field,csp_damper,,,,,,,,2,0.14,0.1,1.6,0.1,0,,,TRUE,TRUE,,,,,,,uses_damper_ai,graphics/icons/hullsys/damper_field.png
+Improved Damper Field,csp_damper,,,,,,,,2,0.14,0.1,1.6,0.1,0,,,TRUE,TRUE,,,,,,,uses_damper_ai,graphics/icons/hullsys/damper_field.png
 Damper Feed,csp_DamperFeed,,,,,,0.5,,,,0.5,15,0.5,10,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
 Canister Flak,csp_canisterflak_fighter,,,,,,,,,,,,,20,,,,,,,,,,,,
 Mobilize Engage!,csp_mobilize_engage,1,,,,,,,,,0.1,15,0.1,90,,,,,,,,,,,,graphics/icons/hullsys/high_energy_focus.png

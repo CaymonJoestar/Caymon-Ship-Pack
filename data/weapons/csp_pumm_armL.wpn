@@ -1,0 +1,42 @@
+{
+  "id": "csp_pumm_armL",
+  "specClass": "projectile",
+  "projectileSpecId": "shredder_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/Pummeler Arm/Pummerer Carbine 00.png",
+  "hardpointSprite": "graphics/weapons/Pummeler Arm/Pummerer Carbine 00.png",
+  "turretOffsets": [
+    29,
+    -1.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    46,
+    -1.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "numFrames": 3,
+  "frameRate": 20,
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 5,
+    "particleSizeMin": 10,
+    "particleSizeRange": 16,
+    "particleDuration": 0.15,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      140,
+      125,
+      200
+    ]
+  },
+  "fireSoundTwo": "thumper_fire"
+}

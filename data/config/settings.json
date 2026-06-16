@@ -8,6 +8,7 @@
   "graphics":{
       "characters":{
          "csp_xivai":"graphics/portraits/csp_xivai.png",
+         "csp_Dragoon":"graphics/portraits/characters/csp_Artorius.png",
       },
 },
 

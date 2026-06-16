@@ -6,9 +6,9 @@
   "style": "MIDLINE",
   "height": 59,
   "width": 74,
-  "center": [35.5, 35],
+  "center": [36, 35],
   "collisionRadius": 93.5,
-  "shieldCenter": [0, 0],
+  "shieldCenter": [0, -0],
   "shieldRadius": 92.5,
   "viewOffset": 0,
   "builtInMods": [
@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [-11, -36],
+      "locations": [-11, -35.5],
       "renderOrderMod": 400
     },
     {
@@ -43,7 +43,7 @@
       "mount": "TURRET",
       "arc": 30,
       "angle": 5,
-      "locations": [11, 35]
+      "locations": [11, 35.5]
     },
     {
       "id": "WS0001",
@@ -52,7 +52,7 @@
       "mount": "TURRET",
       "arc": 70,
       "angle": 0,
-      "locations": [-11, 32],
+      "locations": [-11, 32.5],
       "renderOrderMod": 400
     },
     {
@@ -62,7 +62,7 @@
       "mount": "TURRET",
       "arc": 90,
       "angle": 0,
-      "locations": [-3, 14.5],
+      "locations": [-3, 15],
       "renderOrderMod": 500
     },
     {
@@ -72,7 +72,7 @@
       "mount": "TURRET",
       "arc": 90,
       "angle": -0,
-      "locations": [-3, -17.5],
+      "locations": [-3, -17],
       "renderOrderMod": 500
     },
     {
@@ -82,7 +82,7 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [19, -1.5],
+      "locations": [19, -0],
       "renderOrderMod": 200
     },
     {
@@ -92,7 +92,7 @@
       "mount": "TURRET",
       "arc": 30,
       "angle": -5,
-      "locations": [13.5, -37]
+      "locations": [13.5, -36.5]
     },
     {
       "id": "WS0008",
@@ -101,7 +101,7 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [11, -1.5],
+      "locations": [11, -0],
       "renderOrderMod": 300
     },
     {
@@ -111,7 +111,7 @@
       "mount": "TURRET",
       "arc": 90,
       "angle": 0,
-      "locations": [-3.5, -0.5],
+      "locations": [-3.5, 0],
       "renderOrderMod": 600
     },
     {
@@ -121,13 +121,13 @@
       "mount": "TURRET",
       "arc": 0,
       "angle": 0,
-      "locations": [-5.5, -1.5],
+      "locations": [-5.5, -1],
       "renderOrderMod": 100
     }
   ],
   "engineSlots": [
     {
-      "location": [-35, 6.5],
+      "location": [-35, 7],
       "length": 24.5,
       "width": 7,
       "angle": 180,
@@ -135,7 +135,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-35, -6.5],
+      "location": [-35, -6],
       "length": 24.5,
       "width": 7,
       "angle": -180,
@@ -143,7 +143,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-32, 16.5],
+      "location": [-32, 17],
       "length": 34,
       "width": 8,
       "angle": 180,
@@ -151,7 +151,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-32, -16.5],
+      "location": [-32, -16],
       "length": 34,
       "width": 8,
       "angle": -180,
@@ -159,7 +159,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-34, 28.5],
+      "location": [-34, 29],
       "length": 44.5,
       "width": 12,
       "angle": 180,
@@ -167,7 +167,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-34, -28.5],
+      "location": [-34, -28],
       "length": 44.5,
       "width": 12,
       "angle": -180,
@@ -176,13 +176,13 @@
     }
   ],
   "bounds": [
-    -32, 18.5,
-    -3, 23,
-    23, 19.5,
-    23, -19.5,
-    -4, -27,
-    -32, -18.5,
-    -35, -4,
-    -35, 1
+    -32, 19,
+    -3, 23.5,
+    23, 20,
+    23, -19,
+    -4, -26.5,
+    -32, -18,
+    -35, -3.5,
+    -35, 1.5
   ]
 }

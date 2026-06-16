@@ -15,7 +15,8 @@
     "csp_multi_layered_shielding",
     "solar_shielding",
     "high_scatter_amp",
-    "andrada_mods"
+    "andrada_mods",
+    "coherer"
   ],
   "weaponSlots": [
     {

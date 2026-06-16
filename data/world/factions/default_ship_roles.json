@@ -5,6 +5,9 @@
 	"combatSmallForSmallFleet":{
 		"csp_solarizedflare_Support":5,
 		"csp_solarizedflare_LG_Support":6,	
+		"csp_corvid_standard":3,
+		"csp_corvid_strike":3,
+		"csp_corvid_support":3,
 	},
 
 	"combatSmall":{
@@ -35,8 +38,23 @@
 		"csp_dijeh_standard":5,
 		"csp_dijeh_overdrive":3,
 		"csp_dijeh_assault":4,
+		"csp_motorhead_standard":5,
+		"csp_motorhead_Escort":4,
+		"csp_motorhead_overdrive":3,
+		"csp_motorhead_elite":3,
+		"csp_jug_assault":3,
+		"csp_jug_standard":4,
+		"csp_corvid_standard":3,
+		"csp_corvid_strike":3,
+		"csp_corvid_support":3,
 		"csp_deputy_standard":4,
 		"csp_deputy_armored":4,
+		"csp_diazxiv_standard":3,
+		"csp_diazxiv_strike":3,
+		"csp_diazxiv_elite":3,
+		"csp_jug_support":3,
+		"csp_rickdiaz_strike":3,
+		"csp_rickdiaz_standard":3,
 	},
 
 	"combatMedium":{
@@ -44,10 +62,6 @@
 		"csp_zagreus_Strike":4,
 		"csp_zagreus_support":4,
 		"csp_zagreus_Elite":3,
-		"csp_Lanius_assault":4,
-		"csp_Lanius_standard":5,
-		"csp_Lanius_strike":3,
-		"csp_Lanius_overdrive":3,
 		"csp_vritra_standard":5,
 		"csp_vritra_strike":4,
 		"csp_vritra_overdrive":3,
@@ -59,6 +73,8 @@
 		"csp_shocktrooper_assault":3,
 		"csp_shocktrooper_escort":3,
 		"csp_shocktrooper_standard":4,
+		"csp_shocktrooperxiv_strike":3,
+		"csp_shocktrooperxiv_standard":3,
 		"csp_thornbill_standard":5,
 		"csp_thornbill_support":4,
 		"csp_thornbill_assault":4,
@@ -73,10 +89,6 @@
 		"csp_cutlet_assault":2.5,
 		"csp_cutlet_attack":2.5,
 		"csp_cutlet_attack2":2.5,
-		"csp_motorhead_standard":5,
-		"csp_motorhead_Escort":4,
-		"csp_motorhead_overdrive":3,
-		"csp_motorhead_elite":3,
 		"csp_manticorelg_standard":4,
 		"csp_manticorelg_support":3,
 		"csp_manticorelg_assault":3,
@@ -84,6 +96,12 @@
 		"csp_whitefinlg_shieldbreaker":4,
 		"csp_moralistlg_elite":3,
 		"csp_moralistlg_standard":4,
+		"csp_wyrm_escort":3,
+		"csp_wyrm_standard":4,
+		"csp_wyrm_strike":3,
+		"csp_remnantarmor_support":3,
+		"csp_remnantarmor_assault":3,
+		"csp_remnantarmor_escort":4,
 		},
 	"combatLarge":{
 		"csp_bonnetheadlg_assault":4,
@@ -118,6 +136,8 @@
 		"csp_skystrikerLG_standard":5,
 		"csp_garudalg_standard":4,
 		"csp_garudalg_antifighter":3,
+		"csp_menoetius_standard":3,
+		"csp_menoetius_dem":3,
 	},
 	
 	"civilianRandom":{
@@ -142,34 +162,6 @@
 		"csp_torch_swarm":3,
 		"csp_torch_bomber":3,
 	},
-
-	
-	"phaseMedium":{
-		"csp_phasehead_Standard":6,
-		"csp_phasehead_Strike":5,
-		"csp_phasehead_xiv_Standard":7,
-		"csp_phasehead_xiv_Strike":5,
-		"csp_phasehead_LG_Standard":5,
-		"csp_phasehead_LG_Strike":4,
-		"csp_battlephantom_standard":4,
-		"csp_battlephantom_support":4,
-	},
-
-	"phaseLarge":{
-		"csp_altergeist_strike":4,
-		"csp_altergeist_standard":5,
-		"csp_altergeist_overdrive":3,
-		"csp_altergeist_anchor":3,
-		"csp_shadow_standard":4,
-	},
-	
-	"phaseCapital":{
-		"csp_Phasegon_Standard":4,
-		"csp_Phasegon_Strike":3,
-		"csp_Phasegon_Breaker":3,
-
-	},
-
 		
 	"freighterMedium":{
 		"csp_hesperides_Standard":5,

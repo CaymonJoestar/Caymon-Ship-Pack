@@ -13,15 +13,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "csp_breachgun"
+        "WS0003": "irautolance"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "heatseeker",
-        "WS0002": "heatseeker"
+        "WS0001": "swarmer",
+        "WS0002": "swarmer"
       }
     }
   ],

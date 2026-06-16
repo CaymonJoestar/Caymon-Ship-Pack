@@ -3,14 +3,23 @@
   "hullId": "csp_vritra",
   "displayName": "Overdrive",
   "goalVariant": true,
-  "fluxCapacitors": 17,
+  "fluxCapacitors": 16,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "safetyoverrides"
+    "hardenedshieldemitter",
+    "fluxdistributor"
   ],
   "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "ionpulser",
+        "WS0004": "ionpulser"
+      }
+    },
     {
       "autofire": false,
       "mode": "LINKED",
@@ -22,19 +31,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "heavyblaster",
-        "WS0004": "heavyblaster"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0009": "mininglaser",
-        "WS0010": "mininglaser",
-        "WS0013": "mininglaser"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -45,18 +42,15 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "mininglaser",
-        "WS0007": "mininglaser"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
         "WS0008": "mininglaser"
       }
     }

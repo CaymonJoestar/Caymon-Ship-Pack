@@ -6,32 +6,42 @@
   "size": "MEDIUM",
   "turretSprite": "graphics/weapons/remnant_mech_arm_ionpulsar.png",
   "hardpointSprite": "graphics/weapons/remnant_mech_arm_ionpulsar.png",
+  "glowColor": [
+    100,
+    150,
+    255,
+    225
+  ],
   "turretOffsets": [
-    33.5,
-    -1
+    43,
+    0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    50.5,
-    -1
+    64.5,
+    0
   ],
   "hardpointAngleOffsets": [
     0
   ],
-  "barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	#"animationType":"GLOW",
-	"animationType":"GLOW_AND_FLASH",
-	"muzzleFlashSpec":{"length":33.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":15.0,
-					   "particleSizeMin":15.0,
-					   "particleSizeRange":17.0,
-					   "particleDuration":0.12,
-					   "particleCount":7,
-					   "particleColor":[100,200,255,255]},
-					   
-	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
-  "fireSoundTwo": "ion_pulser_fire",
-  	"glowColor":[100,150,255,225],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": 33,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 17,
+    "particleDuration": 0.12,
+    "particleCount": 7,
+    "particleColor": [
+      100,
+      200,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "ion_pulser_fire"
 }

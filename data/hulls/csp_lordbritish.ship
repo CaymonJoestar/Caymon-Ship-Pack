@@ -2,22 +2,23 @@
   "hullName": "Lord British",
   "hullId": "csp_lordbritish",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/csp_LordBritish 1.1e.png",
+  "spriteName": "graphics/ships/lord_british.png",
   "style": "HIGH_TECH",
   "height": 54,
-  "width": 48,
-  "center": [24, 26],
-  "collisionRadius": 37,
-  "shieldCenter": [0.5, -0],
-  "shieldRadius": 34,
+  "width": 44,
+  "center": [22, 24],
+  "collisionRadius": 31,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 29.5,
   "viewOffset": 0,
   "builtInMods": [
-    "no_weapon_flux"
+    "no_weapon_flux",
+    "high_scatter_amp"
   ],
   "builtInWeapons": {
     "WS0001": "swarmer",
     "WS0002": "swarmer",
-    "WS0003": "csp_breachgun",
+    "WS0003": "irautolance",
     "WS0004": "csp_lordbritishdeco"
   },
   "weaponSlots": [
@@ -28,7 +29,7 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": 0,
-      "locations": [2.5, 12.5],
+      "locations": [6, 9],
       "renderOrderMod": 100
     },
     {
@@ -38,17 +39,17 @@
       "mount": "HIDDEN",
       "arc": 10,
       "angle": 0,
-      "locations": [2.5, -12.5],
+      "locations": [6, -9],
       "renderOrderMod": 100
     },
     {
       "id": "WS0003",
-      "size": "SMALL",
+      "size": "MEDIUM",
       "type": "BUILT_IN",
-      "mount": "TURRET",
+      "mount": "HIDDEN",
       "arc": 90,
       "angle": 0,
-      "locations": [-8.5, -0]
+      "locations": [2, 0]
     },
     {
       "id": "WS0004",
@@ -57,63 +58,30 @@
       "mount": "HARDPOINT",
       "arc": 0,
       "angle": 0,
-      "locations": [-12.5, -0],
-      "renderOrderMod": 100
+      "locations": [-10.5, 0],
+      "renderOrderMod": 200
     }
   ],
   "engineSlots": [
     {
-      "location": [-23.5, -0.5],
+      "location": [-19, -0],
       "length": 25,
       "width": 10,
       "angle": 180,
       "contrailSize": 10,
       "style": "COBRA_BOMBER"
-    },
-    {
-      "location": [-26, -9],
-      "length": 17.5,
-      "width": 5,
-      "angle": 180,
-      "contrailSize": 5,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-26, 9],
-      "length": 17.5,
-      "width": 5,
-      "angle": -180,
-      "contrailSize": 5,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-21, -17.5],
-      "length": 21,
-      "width": 8,
-      "angle": 180,
-      "contrailSize": 8,
-      "style": "HIGH_TECH"
-    },
-    {
-      "location": [-21, 17.5],
-      "length": 21,
-      "width": 8,
-      "angle": -180,
-      "contrailSize": 8,
-      "style": "HIGH_TECH"
     }
   ],
   "bounds": [
-    -24, 4.5,
-    -26, 10,
-    -21, 10,
-    -21, 20,
-    -13, 23,
-    28, 0,
-    -13, -23,
-    -21, -20,
-    -21, -10,
-    -26, -10,
-    -24, -4.5
+    -24, 6,
+    -14, 8,
+    -6, 22,
+    3, 13,
+    25, -0,
+    3, -13,
+    -6, -22,
+    -14, -8,
+    -24, -6,
+    -20, -0
   ]
 }

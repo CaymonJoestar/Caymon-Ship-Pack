@@ -1,0 +1,188 @@
+{
+  "hullName": "Dijeh (XIV)",
+  "hullId": "csp_diazxiv",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/csp_lowtechmechxiv.png",
+  "style": "LOW_TECH",
+  "height": 70,
+  "width": 120,
+  "center": [61, 33.5],
+  "collisionRadius": 67,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 65.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "csp_strikecraft",
+    "ballistic_rangefinder",
+    "fourteenth"
+  ],
+  "builtInWeapons": {
+    "AGUN": "csp_hellbore_arm",
+    "AGUN2": "csp_hellbore_arm2",
+    "WS0003": "csp_lowtechmech_head",
+    "WS0007": "csp_lowtechmechxiv_bodydeco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [0.5, 0.5],
+      "renderOrderMod": 600
+    },
+    {
+      "id": "AGUN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -15,
+      "locations": [16.5, -38.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "AGUN2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 15,
+      "locations": [16.5, 38.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [1.5, 1],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": -5,
+      "locations": [-12, -22.5],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 5,
+      "locations": [-12, 22.5],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 25,
+      "angle": 0,
+      "locations": [23.5, 1],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "TGUN",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": -15,
+      "locations": [16.5, -38.5]
+    },
+    {
+      "id": "TGUN2",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 15,
+      "locations": [16.5, 38.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-33.5, -4],
+      "length": 35,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33.5, 6],
+      "length": 35,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, -16.5],
+      "length": 30,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-29, 18.5],
+      "length": 30,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, -45],
+      "length": 29.017567,
+      "width": 10.046069,
+      "angle": -145,
+      "contrailSize": 10.046069,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-23.5, 47],
+      "length": 28.854553,
+      "width": 10.566881,
+      "angle": 145,
+      "contrailSize": 10.566881,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -33.5, 9,
+    -29.5, 15,
+    -29.5, 22,
+    -24.5, 27.5,
+    -30.5, 40,
+    -11.5, 58,
+    14.5, 29,
+    26.5, 24,
+    34.5, 11,
+    29.5, 7,
+    29.5, -5,
+    35.5, -9,
+    27.5, -23,
+    14.5, -25,
+    14.5, -28,
+    -12.5, -58,
+    -30.5, -37,
+    -23.5, -25,
+    -29.5, -20,
+    -29.5, -13,
+    -33.5, -7
+  ]
+}

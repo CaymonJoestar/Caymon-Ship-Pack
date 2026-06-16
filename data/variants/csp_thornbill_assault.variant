@@ -3,14 +3,21 @@
   "hullId": "csp_thornbill",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 18,
-  "fluxVents": 17,
+  "fluxCapacitors": 20,
+  "fluxVents": 19,
   "quality": 1,
   "permaMods": [],
-  "hullMods": [],
+  "hullMods": [
+    "hardenedshieldemitter"
+  ],
   "weaponGroups": [
     {
       "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
         "WS0001": "phasebeam",
@@ -18,19 +25,9 @@
       }
     },
     {
-      "autofire": true,
+      "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0003": "railgun",
-        "WS0004": "railgun"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS0005": "sabotpod"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
@@ -43,7 +40,9 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0005": "sabotpod"
+      }
     },
     {
       "autofire": false,

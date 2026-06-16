@@ -6,7 +6,7 @@
   "collisionClass": "RAY",
   "collisionClassByFighter": "RAY_FIGHTER",
   "turretSprite": "graphics/weapons/Midline_Gun_arm_ShoulderRdeco2.png",
-  "hardpointSprite": "graphics/weapons/Midline_Gun_arm_ShoulderRdeco.png",
+  "hardpointSprite": "graphics/weapons/Midline_Gun_arm_ShoulderRdeco2.png",
   "glowColor": [
     255,
     255,
@@ -22,7 +22,7 @@
     0
   ],
   "hardpointOffsets": [
-    8,
+    10,
     0
   ],
   "hardpointAngleOffsets": [

@@ -42,8 +42,8 @@ class VeteranStandard : SCBaseSkillPlugin() {
 
     override fun addTooltip(data: SCData, tooltip: TooltipMakerAPI) {
 
-        tooltip.addPara("Reduces most negative effects of d-mods by 25%%*", 0f, Misc.getHighlightColor(), Misc.getHighlightColor())
-        tooltip.addPara("+3%% combat readiness for every s-mod on the ship (max 15%%)", 0f, Misc.getHighlightColor(), Misc.getHighlightColor())
+        tooltip.addPara("Reduces most negative effects of d-mods by 20%%*", 0f, Misc.getHighlightColor(), Misc.getHighlightColor())
+        tooltip.addPara("+2%% combat readiness for every s-mod on the ship (max 10%%)", 0f, Misc.getHighlightColor(), Misc.getHighlightColor())
 
         tooltip.addSpacer(10f)
 
@@ -53,8 +53,8 @@ class VeteranStandard : SCBaseSkillPlugin() {
     override fun applyEffectsBeforeShipCreation(data: SCData, stats: MutableShipStatsAPI?, variant: ShipVariantAPI, hullSize: ShipAPI.HullSize?, id: String?) {
 
         var smods = variant.sMods.count()
-        var bonus = 0.03f * smods
-        bonus = bonus.coerceIn(0f, 0.15f)
+        var bonus = 0.02f * smods
+        bonus = bonus.coerceIn(0f, 0.10f)
 
         stats!!.maxCombatReadiness.modifyFlat(id, bonus, "Veteran Standard")
 
@@ -62,7 +62,7 @@ class VeteranStandard : SCBaseSkillPlugin() {
             stats.fleetMember.repairTracker.cr += bonus
             stats.fleetMember.repairTracker.cr = MathUtils.clamp(stats.fleetMember.repairTracker.cr, 0f, 1f)
         }
-        stats.dynamic.getStat(Stats.DMOD_EFFECT_MULT).modifyMult(id, 0.75f)
+        stats.dynamic.getStat(Stats.DMOD_EFFECT_MULT).modifyMult(id, 0.80f)
         reapplyDmods(variant, hullSize, stats)
     }
 

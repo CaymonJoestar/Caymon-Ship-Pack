@@ -1,0 +1,177 @@
+{
+  "hullName": "Ricky Diaz",
+  "hullId": "csp_rickdiaz",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/csp_mech_hips.png",
+  "style": "LOW_TECH",
+  "height": 30,
+  "width": 22,
+  "center": [11, 20.5],
+  "collisionRadius": 64.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 62,
+  "viewOffset": 0,
+  "builtInMods": [
+    "ablative_armor",
+    "csp_strikecraft"
+  ],
+  "builtInWeapons": {
+    "AGUN": "csp_hellbore_arm",
+    "AGUN2": "csp_hellbore_arm2",
+    "B_TORSO": "csp_rickdiazbody_deco",
+    "D_PAULDRONL": "csp_lowtechmech_shoulder2L",
+    "D_PAULDRONR": "csp_lowtechmech_shoulder2R",
+    "E_HEAD": "csp_lowtechmech_head"
+  },
+  "weaponSlots": [
+    {
+      "id": "E_HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 0,
+      "locations": [-5, 0],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "D_PAULDRONR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -31.5],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "D_PAULDRONL",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-0.5, 31.5],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [21, -11],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [21, 11],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "AGUN2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 10,
+      "locations": [22, 31]
+    },
+    {
+      "id": "AGUN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": -10,
+      "locations": [22, -31]
+    },
+    {
+      "id": "TGUN2",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": 10,
+      "locations": [22, 31]
+    },
+    {
+      "id": "TGUN",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 40,
+      "angle": -10,
+      "locations": [22, -31]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 10,
+      "locations": [-14, 17.5],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "B_TORSO",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-2.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22, -4],
+      "length": 13.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-22, 4],
+      "length": 13.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27, -13],
+      "length": 20.5,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27, 14],
+      "length": 20.5,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -17, 5,
+    -10.5, 9,
+    2.5, 9,
+    8.5, 2,
+    8.5, -2,
+    2.5, -9,
+    -10.5, -9,
+    -17, -4.5
+  ]
+}

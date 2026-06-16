@@ -55,8 +55,8 @@ public class csp_aistrikecraftoverlords extends BaseHullMod {
         RIGHTSWITCH.put(2,"csp_selector_heavyrifle");
     }    
     
-    private final String leftslotID = "WS0006";
-    private final String rightslotID = "WS0007";
+    private final String leftslotID = "C_ARML";
+    private final String rightslotID = "A_GUN";
     
     @Override
     public void applyEffectsBeforeShipCreation(HullSize hullSize, MutableShipStatsAPI stats, String id) 

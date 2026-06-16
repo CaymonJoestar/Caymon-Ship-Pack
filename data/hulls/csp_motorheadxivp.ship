@@ -79,18 +79,18 @@
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 15,
-      "angle": 0,
-      "locations": [30.5, 26]
+      "arc": 50,
+      "angle": 10,
+      "locations": [27, 28]
     },
     {
       "id": "WS0008",
       "size": "SMALL",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
-      "arc": 100,
-      "angle": 0,
-      "locations": [8, -75.5]
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -10,
+      "locations": [27, -80]
     },
     {
       "id": "WS0011",

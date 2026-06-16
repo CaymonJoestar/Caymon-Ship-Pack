@@ -1,0 +1,57 @@
+{
+  "variantId": "csp_unicetan_Dragoon",
+  "hullId": "csp_unicetan",
+  "displayName": "Spearhead",
+  "goalVariant": false,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "heavyarmor",
+    "hardened_subsystems",
+    "targetingunit",
+    "fluxdistributor",
+    "fluxcoil",
+    "escort_package"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "csp_uniHeadBeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "kineticblaster",
+        "WS0006": "kineticblaster"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "csp_gigarm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "csp_triplepulsearm"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

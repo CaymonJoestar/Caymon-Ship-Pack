@@ -2,14 +2,14 @@
   "hullName": "Kindling(LG)",
   "hullId": "csp_kindlingLG",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/csp_kindlingLG.png",
+  "spriteName": "graphics/ships/csp_kindlingLG2.png",
   "style": "MIDLINE",
-  "height": 136,
+  "height": 140,
   "width": 122,
   "center": [61, 69],
-  "collisionRadius": 95,
+  "collisionRadius": 85.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 95,
+  "shieldRadius": 83.5,
   "viewOffset": 0,
   "builtInMods": [
     "csp_multi_layered_shielding",
@@ -93,7 +93,7 @@
   ],
   "engineSlots": [
     {
-      "location": [-68.5, 22],
+      "location": [-68, 21.5],
       "length": 34,
       "width": 12,
       "angle": 180,
@@ -101,7 +101,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-68.5, -21],
+      "location": [-68, -21],
       "length": 34,
       "width": 12,
       "angle": -180,
@@ -109,7 +109,7 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-67.5, 33],
+      "location": [-67, 33],
       "length": 30,
       "width": 10,
       "angle": 180,
@@ -117,10 +117,10 @@
       "style": "MIDLINE"
     },
     {
-      "location": [-67.5, -32.5],
+      "location": [-67, -32],
       "length": 30,
       "width": 10,
-      "angle": -180,
+      "angle": 180,
       "contrailSize": 30,
       "style": "MIDLINE"
     }

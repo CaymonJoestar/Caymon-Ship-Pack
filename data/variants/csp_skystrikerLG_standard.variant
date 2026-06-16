@@ -3,13 +3,14 @@
   "hullId": "csp_skystrikerLG",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 50,
+  "fluxCapacitors": 46,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "hardenedshieldemitter"
+    "hardenedshieldemitter",
+    "magazines"
   ],
   "weaponGroups": [
     {

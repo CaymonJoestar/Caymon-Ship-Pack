@@ -2,14 +2,14 @@
   "hullName": "Luster",
   "hullId": "csp_luster_fighter",
   "hullSize": "FIGHTER",
-  "spriteName": "graphics/ships/csp_luster.png",
+  "spriteName": "graphics/ships/csp_mech_hips.png",
   "style": "HIGH_TECH",
-  "height": 40,
-  "width": 48,
-  "center": [24, 21],
-  "collisionRadius": 66.5,
+  "height": 30,
+  "width": 22,
+  "center": [11.5, 17.5],
+  "collisionRadius": 58.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 65,
+  "shieldRadius": 57,
   "viewOffset": 0,
   "builtInMods": [
     "solar_shielding",
@@ -17,84 +17,85 @@
     "no_weapon_flux"
   ],
   "builtInWeapons": {
-    "WS0003": "csp_lusterhead",
-    "WS0004": "csp_luster_shoulderLdeco",
-    "WS0005": "csp_luster_shoulderRdeco",
-    "WS0006": "csp_Ionsmg",
-    "WS0007": "csp_sabot_shotgun"
+    "AGUN": "csp_sabot_shotgun",
+    "AGUN2": "csp_Ionsmg",
+    "B_TORSO": "csp_lusterbody_deco",
+    "D_PAULDRONL": "csp_luster_shoulderLdeco",
+    "D_PAULDRONR": "csp_luster_shoulderRdeco",
+    "E_HEAD": "csp_lusterhead"
   },
   "weaponSlots": [
     {
-      "id": "WS0001",
-      "size": "SMALL",
-      "type": "ENERGY",
-      "mount": "HARDPOINT",
-      "arc": 30,
-      "angle": 0,
-      "locations": [-7, -16],
-      "renderOrderMod": 300
-    },
-    {
-      "id": "WS0002",
-      "size": "SMALL",
-      "type": "SYNERGY",
-      "mount": "HARDPOINT",
-      "arc": 15,
-      "angle": 0,
-      "locations": [-11, 19],
-      "renderOrderMod": 300
-    },
-    {
-      "id": "WS0003",
+      "id": "E_HEAD",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
       "arc": 50,
       "angle": 0,
-      "locations": [0, -0]
-    },
-    {
-      "id": "WS0004",
-      "size": "SMALL",
-      "type": "DECORATIVE",
-      "mount": "HARDPOINT",
-      "arc": 15,
-      "angle": 0,
-      "locations": [-4, 21.5],
+      "locations": [-2, -0],
       "renderOrderMod": 200
     },
     {
-      "id": "WS0005",
+      "id": "D_PAULDRONL",
       "size": "SMALL",
       "type": "DECORATIVE",
-      "mount": "HARDPOINT",
-      "arc": 15,
-      "angle": 0,
-      "locations": [-4, -21.5],
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-4, 22],
       "renderOrderMod": 200
     },
     {
-      "id": "WS0006",
+      "id": "D_PAULDRONR",
       "size": "SMALL",
-      "type": "BUILT_IN",
+      "type": "DECORATIVE",
       "mount": "TURRET",
-      "arc": 25,
-      "angle": -4,
-      "locations": [14, 22]
+      "arc": 360,
+      "angle": 0,
+      "locations": [-4, -22],
+      "renderOrderMod": 200
     },
     {
-      "id": "WS0007",
+      "id": "AGUN2",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 25,
-      "angle": 4,
-      "locations": [23.5, -21.5]
+      "arc": 30,
+      "angle": 5,
+      "locations": [15.5, 18]
+    },
+    {
+      "id": "AGUN",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 30,
+      "angle": -5,
+      "locations": [15.5, -19.5]
+    },
+    {
+      "id": "B_TORSO",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-10, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "C_ARMR",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [2, -8]
     }
   ],
   "engineSlots": [
     {
-      "location": [-16, 3],
+      "location": [-14, 3],
       "length": 17.5,
       "width": 4,
       "angle": 180,
@@ -102,7 +103,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-16, -3],
+      "location": [-14, -3],
       "length": 17.5,
       "width": 4,
       "angle": 180,
@@ -110,7 +111,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-15, -6],
+      "location": [-13, -6],
       "length": 13.5,
       "width": 3,
       "angle": 180,
@@ -118,7 +119,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-15, 6],
+      "location": [-13, 6],
       "length": 13.5,
       "width": 3,
       "angle": -180,
@@ -126,7 +127,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-18, -11.5],
+      "location": [-16, -11.5],
       "length": 19.5,
       "width": 8,
       "angle": 180,
@@ -134,7 +135,7 @@
       "style": "HIGH_TECH"
     },
     {
-      "location": [-18, 11.5],
+      "location": [-16, 11.5],
       "length": 19.5,
       "width": 8,
       "angle": -180,
@@ -143,13 +144,12 @@
     }
   ],
   "bounds": [
-    -10, -0,
-    -18, 12,
-    -10, 17,
-    0, 17,
-    17.5, -0,
-    0, -17,
-    -10, -17,
-    -18, -12
+    -14.5, 4.5,
+    -10.5, 8.5,
+    5.5, 8.5,
+    11.5, 0.5,
+    5.5, -7.5,
+    -10.5, -7.5,
+    -14.5, -4
   ]
 }

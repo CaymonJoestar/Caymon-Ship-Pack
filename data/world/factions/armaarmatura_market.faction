@@ -1,0 +1,25 @@
+{
+	"hullFrequency":{
+			"hulls":
+			{
+				"csp_MidlineMech":1,
+				"csp_deputy":0.5,
+				"csp_stheno":0.5,
+				"csp_wyrm":0.75,
+				"csp_advocator":0.50,
+				"csp_dijeh":1,
+				"csp_rickdiaz":1,
+			},
+	},
+	"knownShips":{
+		"hulls":[	
+				"csp_MidlineMech",
+				"csp_stheno",
+				"csp_deputy",
+				"csp_wyrm",
+				"csp_advocator",
+				"csp_dijeh",
+				"csp_rickdiaz",
+			],
+	},
+},

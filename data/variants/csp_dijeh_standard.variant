@@ -17,7 +17,7 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "csp_lowtechmech_head"
+        "E_HEAD": "csp_lowtechmech_head"
       }
     },
     {

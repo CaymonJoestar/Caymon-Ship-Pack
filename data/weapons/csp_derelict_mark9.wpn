@@ -1,0 +1,26 @@
+{
+  "id": "csp_derelict_mark9",
+  "specClass": "projectile",
+  "projectileSpecId": "mark9_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/csp_derelict_mark9.png",
+  "hardpointSprite": "graphics/weapons/csp_derelict_mark9.png",
+  "turretOffsets": [
+    29,
+    0.5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    43.5,
+    0.5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "fireSoundTwo": "autocannon_fire_mark9"
+}

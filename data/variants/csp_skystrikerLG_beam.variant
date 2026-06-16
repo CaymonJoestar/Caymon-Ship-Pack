@@ -3,7 +3,7 @@
   "hullId": "csp_skystrikerLG",
   "displayName": "Beam",
   "goalVariant": true,
-  "fluxCapacitors": 47,
+  "fluxCapacitors": 50,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],

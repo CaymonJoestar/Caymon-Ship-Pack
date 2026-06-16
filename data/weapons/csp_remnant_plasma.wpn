@@ -6,31 +6,42 @@
   "size": "LARGE",
   "turretSprite": "graphics/weapons/remnant_mech_arm_Plasma.png",
   "hardpointSprite": "graphics/weapons/remnant_mech_arm_Plasma.png",
+  "glowColor": [
+    255,
+    100,
+    150,
+    255
+  ],
   "turretOffsets": [
-    33,
-    1
+    44.5,
+    0
   ],
   "turretAngleOffsets": [
     0
   ],
   "hardpointOffsets": [
-    51,
-    1
+    69.5,
+    0
   ],
   "hardpointAngleOffsets": [
     0
   ],
-  "glowColor":[255,100,150,255],
-  "barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
-	"animationType":"GLOW_AND_FLASH",
-	"muzzleFlashSpec":{"length":-34.0,   # only used if animationType = MUZZLE_FLASH
-					   "spread":15.0,
-					   "particleSizeMin":15.0,
-					   "particleSizeRange":15.0,
-					   "particleDuration":0.15,
-					   "particleCount":30,
-					   "particleColor":[255,100,150,255]},
-	"interruptibleBurst":false,
-	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
-  "fireSoundTwo": "plasma_cannon_fire",
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec": {
+    "length": -34,
+    "spread": 15,
+    "particleSizeMin": 15,
+    "particleSizeRange": 15,
+    "particleDuration": 0.15,
+    "particleCount": 30,
+    "particleColor": [
+      255,
+      100,
+      150,
+      255
+    ]
+  },
+  "fireSoundTwo": "plasma_cannon_fire"
 }

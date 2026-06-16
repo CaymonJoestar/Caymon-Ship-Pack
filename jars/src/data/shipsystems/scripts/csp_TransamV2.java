@@ -17,11 +17,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class csp_TransamV2 extends BaseShipSystemScript {
-	public static final float MAX_TIME_MULT = 1.5f;
+	public static final float MAX_TIME_MULT = 2f;
 	public static final float MIN_TIME_MULT = 0.1f;
 	public static final float DAM_MULT = 0.1f;
 
-	public static final float DAMAGE_BONUS_PERCENT = 25f;
+	public static final float DAMAGE_BONUS_PERCENT = 50f;
 	public static final int HARD_FLUX_DISSIPATION_PERCENT = 25;
 	public static final float EXTRA_DAMAGE_TAKEN_PERCENT = 100f;
 	public static final float FLUX_REDUCTION = 50f;
@@ -29,8 +29,8 @@ public class csp_TransamV2 extends BaseShipSystemScript {
 	private static final Map mag = new HashMap();
 	static {
 		mag.put(ShipAPI.HullSize.FIGHTER, 0.33f);
-		mag.put(ShipAPI.HullSize.FRIGATE, 0.33f);
-		mag.put(ShipAPI.HullSize.DESTROYER, 0.33f);
+		mag.put(ShipAPI.HullSize.FRIGATE, 0.5f);
+		mag.put(ShipAPI.HullSize.DESTROYER, 0.5f);
 		mag.put(ShipAPI.HullSize.CRUISER, 0.5f);
 		mag.put(ShipAPI.HullSize.CAPITAL_SHIP, 0.5f);
 	}
@@ -129,12 +129,12 @@ public class csp_TransamV2 extends BaseShipSystemScript {
 			stats.getMaxSpeed().unmodify(id); // have
 			stats.getMaxTurnRate().unmodify(id);
 		} else {
-			stats.getMaxSpeed().modifyFlat(id, 25f);
+			stats.getMaxSpeed().modifyFlat(id, 40f);
 			stats.getAcceleration().modifyPercent(id, 100f * effectLevel);
 			stats.getDeceleration().modifyPercent(id, 100f * effectLevel);
 			stats.getTurnAcceleration().modifyFlat(id, 15f * effectLevel);
 			stats.getTurnAcceleration().modifyPercent(id, 100f * effectLevel);
-			stats.getMaxTurnRate().modifyFlat(id, 15f);
+			stats.getMaxTurnRate().modifyFlat(id, 25f);
 			stats.getMaxTurnRate().modifyPercent(id, 50f);
 		}
                 

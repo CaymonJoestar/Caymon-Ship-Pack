@@ -16,7 +16,8 @@
     "csp_multi_layered_shielding",
     "csp_cetanframe",
     "csp_lionarmory",
-    "andrada_mods"
+    "andrada_mods",
+    "coherer"
   ],
   "builtInWings": [
     "csp_MidlineMechDrone_wing"
@@ -109,10 +110,10 @@
       "id": "WS0003",
       "size": "MEDIUM",
       "type": "BUILT_IN",
-      "mount": "HARDPOINT",
+      "mount": "TURRET",
       "arc": 30,
       "angle": 5,
-      "locations": [3, 40]
+      "locations": [20, 40]
     }
   ],
   "engineSlots": [

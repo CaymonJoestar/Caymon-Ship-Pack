@@ -3,19 +3,20 @@
   "hullId": "csp_zagreus",
   "displayName": "Elite",
   "goalVariant": true,
-  "fluxCapacitors": 17,
-  "fluxVents": 18,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "reinforcedhull"
+    "reinforcedhull",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "heavyneedler"
+        "WS0001": "dualflak"
       }
     },
     {
@@ -37,10 +38,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "lightmg",
-        "WS0008": "lightmg"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

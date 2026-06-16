@@ -3,37 +3,39 @@
   "hullId": "csp_vritra",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 17,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "fluxcoil",
-    "fluxbreakers"
+    "fluxdistributor",
+    "hardenedshieldemitter",
+    "magazines"
   ],
   "weaponGroups": [
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "phasebeam",
-        "WS0002": "phasebeam",
         "WS0007": "pdlaser",
         "WS0008": "pdlaser"
       }
     },
     {
-      "autofire": false,
+      "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "heavyac",
-        "WS0004": "heavyac"
+        "WS0003": "arbalest",
+        "WS0004": "arbalest"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "miningblaster",
+        "WS0002": "miningblaster"
+      }
     },
     {
       "autofire": false,
@@ -46,13 +48,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "pdlaser",
-        "WS0006": "pdlaser",
-        "WS0009": "pdlaser",
-        "WS0010": "pdlaser",
-        "WS0013": "pdlaser"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

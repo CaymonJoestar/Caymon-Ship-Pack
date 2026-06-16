@@ -3,18 +3,21 @@
   "hullId": "csp_luster",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 8,
-  "fluxVents": 9,
+  "fluxCapacitors": 9,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "hardenedshieldemitter"
+    "hardenedshieldemitter",
+    "reinforcedhull"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0003": "swarmer"
+      }
     },
     {
       "autofire": false,
@@ -25,21 +28,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "amblaster"
+        "TGUN2": "irpulse"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "pdburst"
+        "E_HEAD": "csp_lusterhead"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "csp_lusterhead"
+        "TGUN": "pulselaser"
       }
     }
   ],

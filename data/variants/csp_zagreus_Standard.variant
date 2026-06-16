@@ -3,13 +3,14 @@
   "hullId": "csp_zagreus",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 19,
-  "fluxVents": 19,
+  "fluxCapacitors": 20,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "reinforcedhull",
-    "auxiliarythrusters"
+    "auxiliarythrusters",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
@@ -38,10 +39,7 @@
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0007": "vulcan",
-        "WS0008": "vulcan"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,

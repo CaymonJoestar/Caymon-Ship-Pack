@@ -15,7 +15,8 @@
     "eccm",
     "csp_multi_layered_shielding",
     "solar_shielding",
-    "andrada_mods"
+    "andrada_mods",
+    "coherer"
   ],
   "weaponSlots": [
     {

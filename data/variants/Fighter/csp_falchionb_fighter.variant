@@ -13,15 +13,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "csp_built_in_breach_srmF",
-        "WS0002": "csp_built_in_breach_srmF"
+        "WS0001": "csp_gorgon",
+        "WS0002": "csp_gorgon"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "sabot"
+        "WS0003": "railgun"
       }
     }
   ],

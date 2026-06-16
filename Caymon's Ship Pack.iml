@@ -12,9 +12,10 @@
     <orderEntry type="library" name="MagicLib" level="project" />
     <orderEntry type="library" name="ExerelinCore" level="project" />
     <orderEntry type="library" name="Graphics" level="project" />
-    <orderEntry type="library" name="armaa" level="application" />
     <orderEntry type="library" name="Kotlin-Runtime" level="application" />
     <orderEntry type="library" name="Diable_Avionics" level="project" />
     <orderEntry type="library" name="SecondInCommand" level="project" />
+    <orderEntry type="library" name="armaa" level="project" />
+    <orderEntry type="library" name="ungp" level="project" />
   </component>
 </module>

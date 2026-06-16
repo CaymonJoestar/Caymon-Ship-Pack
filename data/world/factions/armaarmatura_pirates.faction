@@ -1,0 +1,19 @@
+{
+	"hullFrequency":{
+			"hulls":
+			{
+				"csp_motorhead":0.75,
+				"csp_wyrm":0.75,
+				"csp_advocator":0.50,
+				"csp_dijeh":0.75,
+			},
+	},
+	"knownShips":{
+		"hulls":[	
+				"csp_motorhead",
+				"csp_wyrm",
+				"csp_advocator",
+				"csp_dijeh",
+			],
+	},
+},

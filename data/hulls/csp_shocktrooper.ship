@@ -75,7 +75,7 @@
       "type": "UNIVERSAL",
       "mount": "HARDPOINT",
       "arc": 10,
-      "angle": 5,
+      "angle": 0,
       "locations": [45.5, -63]
     },
     {
@@ -90,7 +90,7 @@
     {
       "id": "WS0004",
       "size": "LARGE",
-      "type": "COMPOSITE",
+      "type": "HYBRID",
       "mount": "HARDPOINT",
       "arc": 10,
       "angle": -0,

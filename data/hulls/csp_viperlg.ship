@@ -14,7 +14,8 @@
   "builtInMods": [
     "andrada_mods",
     "csp_multi_layered_shielding",
-    "solar_shielding"
+    "solar_shielding",
+    "coherer"
   ],
   "builtInWings": [
     "csp_mini_trident_wing"

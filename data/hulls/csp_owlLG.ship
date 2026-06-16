@@ -2,20 +2,21 @@
   "hullName": "Owl (LG)",
   "hullId": "csp_owlLG",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/csp_owlLG.png",
+  "spriteName": "graphics/ships/csp_owlLG2.png",
   "style": "MIDLINE",
   "height": 312,
   "width": 176,
   "center": [88, 148],
-  "collisionRadius": 204,
+  "collisionRadius": 174.5,
   "shieldCenter": [0, -0],
-  "shieldRadius": 202,
+  "shieldRadius": 167.5,
   "viewOffset": 0,
   "builtInMods": [
     "ecm",
     "csp_multi_layered_shielding",
     "solar_shielding",
-    "andrada_mods"
+    "andrada_mods",
+    "coherer"
   ],
   "weaponSlots": [
     {
@@ -250,8 +251,8 @@
     -144, 16,
     -137.5, 13.5,
     -147, -0,
-    -137.5, -15.5,
-    -144, -18,
+    -137, -14,
+    -146, -15,
     -82, -71,
     77, -31,
     83, -25,
