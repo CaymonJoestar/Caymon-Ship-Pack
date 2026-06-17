@@ -17,22 +17,20 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
+        "AGUN": "csp_derelict_hammer",
+        "TGUN2": "railgun",
         "WS0007": "flak"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "TGUN": "railgun"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0005": "csp_derelict_hammer"
-      }
+      "weapons": {}
     },
     {
       "autofire": false,
