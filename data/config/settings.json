@@ -1,15 +1,19 @@
 {
   "designTypeColors":{
-      "Lion's Guard":[160,0,95,255],
 	 "XIV Remnant":[188,121,40,255],
-
   },
-
   "graphics":{
+    "fx":{
+			#thanks gettag, very cool
+			"csp_beam_trail_smooth":"graphics/fx/csp_projectile_contrail_smooth.png",
+		},
       "characters":{
          "csp_xivai":"graphics/portraits/csp_xivai.png",
+         "csp_tokuPurple":"graphics/portraits/csp_tokuPurple.png",
+         "csp_tokuPink":"graphics/portraits/csp_tokuPink.png",
+         "csp_tokuBlack":"graphics/portraits/csp_tokuBlack.png",
+         "csp_tokuYellow":"graphics/portraits/csp_tokuYellow.png",
          "csp_Dragoon":"graphics/portraits/characters/csp_Artorius.png",
       },
-},
-
+ }
 }

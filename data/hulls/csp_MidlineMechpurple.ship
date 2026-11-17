@@ -1,0 +1,188 @@
+{
+  "hullName": "Cetan",
+  "hullId": "csp_MidlineMechpurple",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Midline Gun body 3 purple.png",
+  "style": "MIDLINE",
+  "height": 59,
+  "width": 74,
+  "center": [37, 31],
+  "collisionRadius": 79.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 77.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "csp_cetanframe",
+    "csp_cetanweaponSwap2"
+  ],
+  "builtInWings": [
+    "csp_MidlineMechDrone_wing"
+  ],
+  "builtInWeapons": {
+    "WS0001": "csp_midline_shoulderLpurpledeco",
+    "WS0002": "csp_midline_shoulderRpurpledeco",
+    "WS0003": "csp_HeadBeampurple",
+    "WS0008": "csp_chestplatepurple",
+    "WS0010": "csp_midline_torsopurpledeco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-7, -34.5],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": 5,
+      "locations": [15, 36.5]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [-7, 33.5],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [1, 16],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [1, -16],
+      "renderOrderMod": 500
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [23, -0],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0009",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 35,
+      "angle": -5,
+      "locations": [17.5, -35.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15, -0],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-3.5, 0],
+      "renderOrderMod": 600
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-1.5, 0],
+      "renderOrderMod": 100
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-30, 6.5],
+      "length": 24.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-30, -6.5],
+      "length": 24.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-27, 15.5],
+      "length": 34,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-27, -15.5],
+      "length": 34,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-29, 28],
+      "length": 44.5,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-29, -28],
+      "length": 44.5,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -28, 20,
+    1, 24.5,
+    27, 21,
+    27, -18,
+    0, -25.5,
+    -28, -17,
+    -31, -2.5,
+    -31, 2.5
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "variantId": "armaa_garegga_xiv_remnant",
+  "hullId": "armaa_garegga_xiv",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "eis_damperhull",
+  "escort_package",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "heavyarmor",
+    "csp_penaltylessautomated",
+    "reinforcedhull",
+    "autorepair",
+    "blast_doors",
+    "insulatedengine",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "A_GUN": "armaa_garegga_xiv_leftArm"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "A_GUN2": "armaa_garegga_xiv_rightArm"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "reaper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "reaper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

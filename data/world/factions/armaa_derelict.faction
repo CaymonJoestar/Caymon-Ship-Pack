@@ -1,0 +1,16 @@
+{
+	"hullFrequency":{
+			"hulls":
+			{
+				"csp_jug":0.5,
+			},
+	},
+	"knownShips":{
+		"hulls":[	
+				"csp_jug",
+			],
+	},
+},
+
+
+

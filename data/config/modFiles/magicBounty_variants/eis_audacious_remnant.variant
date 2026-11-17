@@ -1,0 +1,58 @@
+{
+  "variantId": "eis_audacious_remnant",
+  "hullId": "eis_audacious",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+    "sMods": [
+  "heavyarmor",
+  "reinforcedhull",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "csp_penaltylessautomated",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "tahlan_hekaton"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "tahlan_aetnos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tahlan_gallant",
+        "WS0004": "tahlan_gallant"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_kopis_wing",
+    "eis_kopis_wing"
+  ]
+}

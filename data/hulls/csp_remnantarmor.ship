@@ -33,7 +33,7 @@
       "mount": "TURRET",
       "arc": 150,
       "angle": 0,
-      "locations": [29, -0]
+      "locations": [29, -70]
     },
     {
       "id": "MAIN_GUN",
@@ -157,6 +157,15 @@
       "arc": 90,
       "angle": 0,
       "locations": [0.5, -0]
+    },
+    {
+      "id": "MODULE_COMBAT_POS",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 150,
+      "angle": 0,
+      "locations": [29, -0]
     }
   ],
   "engineSlots": [

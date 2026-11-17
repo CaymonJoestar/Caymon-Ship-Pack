@@ -1,0 +1,45 @@
+id,trigger,conditions,script,text,options,notes
+nex_mercMeetBlurbToku2,Nex_MercMeetBlurb,$nex_mercCompanyId == csp_tokuTeam,"SetTextHighlightColors ""156,76,201,255"" ""222,98,193,255""  ""219,207,70,255""
+SetTextHighlights ""Worry not, $playerSirOrMadam! When the innocent cry for salvation in the darkest corners of the sector, four will answer as one! We are-"" ""The shining light that will send villainy slithering back into the shadows!"" ""Please forgive them, they're just a little eager to get back into the thick of things.""  ""Not a whole of clients come to us when we're often overshadowed by the exploits of our more... recongnizable collegues""
+ShowThirdPerson csp_tokuYellow","The connection is accepted as four fully suited individuals sharing a single feed appears, each one struggling to fit onto view of the camera. The purple one wins, and snaps into a pose as a familarily disgustingly upbeat song blares from the feed.
+
+""Worry not, $playerSirOrMadam! When the innocent cry for salvation in the darkest corners of the sector, four will answer as one! We are-""
+
+""The shining light that will send villainy slithering back into the shadows!"" The Pink finishes her collegue's sentence as both start posing multiple flashy poses.
+
+""Please forgive them, they're just a little eager to get back into the thick of things."" The yellow one presses onto the view of the feed.""Not a whole of clients come to us when we're often overshadowed by the exploits of our more... recongnizable collegues""
+
+You put the feed on mute.",,
+nex_mercMeetBlurbTokuSecondTime2,Nex_MercMeetBlurb,"$nex_mercCompanyId == csp_tokuTeam
+$player.csp_hiredTokuTeam","ShowThirdPerson csp_tokuBlack
+SetTextHighlightColors ""156,76,201,255"" ""140,139,128,255"" ""140,139,128,255""
+SetTextHighlights ""Comrades! Our heroic journey continues one more!"" ""We still have your old data on the record."" ""Same rates as before.""","$nex_mercName and the other 3 are already posing as the connection is accepted. ""Comrades! Our heroic journey continues one more!""
+
+""We still have your old data on the record"" Starfar Black chimes in. ""Same rates as before.""
+",,
+nex_mercMeetBlurbTokuInsulted2,Nex_MercMeetBlurb,"$nex_mercCompanyId == csp_tokuTeam
+$nex_mercInsulted score:5","SetEnabled nex_mercHire false
+SetTextHighlightColors ""156,76,201,255"" ""156,76,201,255""
+SetTextHighlights ""Oh, $playerSirOrMadam."" ""I dont think we can associate with villainy like you. Have the day that you deserve.""","""Oh, $playerSirOrMadam."" The purple one looks dead into your eyes through their helmet. ""I dont think we can associate with villainy like you. Have the day that you deserve.""
+
+The feed cuts before you can mutter a word.",,
+nex_mercHireBlurbToku2,Nex_MercHireBlurb,$nex_mercCompanyId == csp_tokuTeam,"$player.csp_hiredTokuTeam = true
+ShowSecondPerson csp_tokuBlack
+SetTextHighlightColors ""219,207,70,255"" ""219,207,70,255"" ""140,139,128,255""
+SetTextHighlights ""With that settled, we best get our equipment ready and join up"" ""Now, let us go smite evil!"" ""I only just recently just joined up with these people. I dont know what the hell gets them so eager for this type of work. But just roll with it sir, you'll get used to it.""","Soon, negotiations of the terms and rates draws to a close as the contract is finalized as both you and the yellow one sign to confirm the agreement.
+
+""With that settled, we best get our equipment ready and join up"" The yellow one shoots a quick pose before walking off. ""Now, let us go smite evil!""
+
+The black one steps into the view as the others rush to go prepare to link up. ""I only just recently just joined up with these people. I dont know what the hell gets them so eager for this type of work. But just roll with it sir, you'll get used to it."" The black one gives you a thumbs up before disconnecting.
+
+Not long after, three strikecraft and 1 destroyer join your $shipOrFleet.",,
+nex_mercHireBlurbTokuSecondTime2,Nex_MercHireBlurb,"$nex_mercCompanyId == csp_tokuTeam
+$player.csp_hiredTokuTeam",,"As soon as you finish finalizing the contract, the 4 have already ran off to gather their equipment once more
+
+Not long after, the four join your $shipOrFleet, sliding into formation around your flagship.",,
+nex_mercLeaving_checkToku2,Nex_MercsLeavingGreeting,$nex_mercCompanyId == csp_tokuTeam,"ShowPersonVisual
+
+SetTextHighlightColors ""156,76,201,255""
+SetTextHighlights ""The journey continues but for now our paths must seperate, $playerSirOrMadam! But fret not, our paths will cross again and evil will tremble at the sight of us once more!""
+FireBest Nex_MercLeavingOptions
+","""The journey continues but for now our paths must seperate, $playerSirOrMadam! But fret not, our paths will cross again and evil will tremble at the sight of us once more!""",,

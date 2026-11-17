@@ -1,61 +1,64 @@
 {
-  "variantId": "csp_LGbazaarfalcon_standard",
-  "hullId": "csp_LGbazaarfalcon",
-  "displayName": "Standard",
+  "variantId": "csp_remmantsupermech_strike",
+  "hullId": "csp_remmantsupermech",
+  "displayName": "Strike",
   "goalVariant": true,
-  "fluxCapacitors": 25,
-  "fluxVents": 30,
+  "fluxCapacitors": 14,
+  "fluxVents": 20,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit",
-    "expanded_deck_crew"
+    "fluxdistributor"
   ],
   "weaponGroups": [
     {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 009": "pdburst",
-        "WS 010": "pdburst"
+        "WS0005": "heavyneedler"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 005": "pulselaser",
-        "WS 006": "pulselaser"
-      }
-    },
-    {
-      "autofire": true,
-      "mode": "LINKED",
-      "weapons": {
-        "WS 003": "mininglaser",
-        "WS 004": "mininglaser"
+        "WS0004": "irautolance"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "sabot",
-        "WS 002": "sabot"
+        "E_LARM": "csp_remnant_blade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "csp_remnant_autolancehead"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 007": "heavymortar",
-        "WS 008": "heavymortar"
+        "WS0008": "gorgonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "TGUN2": "plasma"
       }
     }
   ],
   "modules": [],
-  "wings": [
-    "csp_Fantia_wing",
-    "csp_Fantia_wing"
-  ]
+  "wings": []
 }

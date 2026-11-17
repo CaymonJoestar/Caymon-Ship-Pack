@@ -3,14 +3,13 @@
   "hullId": "csp_skystrikerLG",
   "displayName": "Beam",
   "goalVariant": true,
-  "fluxCapacitors": 50,
+  "fluxCapacitors": 36,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "targetingunit",
-    "hardenedshieldemitter",
-    "advancedshieldemitter"
+    "hardenedshieldemitter"
   ],
   "weaponGroups": [
     {

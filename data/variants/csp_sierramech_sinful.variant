@@ -1,0 +1,59 @@
+{
+  "variantId": "csp_sierramech_sinful",
+  "hullId": "csp_sierramech",
+  "displayName": "A Sinful Spoil",
+  "goalVariant": true,
+  "fluxCapacitors": 18,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "E_LARM": "csp_sierra_blade"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TGUN2": "autopulse"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "csp_sierra_autolancehead"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "ionpulser",
+        "WS0005": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sabotpod"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

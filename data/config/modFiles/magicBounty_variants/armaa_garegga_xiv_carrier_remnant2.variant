@@ -1,0 +1,61 @@
+{
+  "variantId": "armaa_garegga_xiv_carrier_remnant2",
+  "hullId": "armaa_garegga_xiv_carrier",
+  "displayName": "Diaz Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 16,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "eis_damperhull",
+  "reinforcedhull",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "csp_penaltylessautomated",
+    "armoredweapons",
+    "escort_package"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tahlan_aetnos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "eis_dualrailgun"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "TRUE_GUN": "flak",
+        "WS0001": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "MAIN_GUN": "tahlan_hekaton_rack"
+      }
+    },
+  ],
+  "modules": [
+    {
+      "MODULE": "csp_diazxiv_remnant"
+    }
+  ],
+  "wings": []
+}

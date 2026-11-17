@@ -1,0 +1,58 @@
+{
+  "variantId": "eis_flagellator_remnant",
+  "hullId": "eis_flagellator",
+  "displayName": "Remnantized",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "magazines",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "csp_penaltylessautomated",
+    "reinforcedhull"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tahlan_praxus",
+        "WS0004": "tahlan_praxus"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "miningblaster",
+        "WS0002": "miningblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "eis_celestials_aster"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_kopis_wing"
+  ]
+}

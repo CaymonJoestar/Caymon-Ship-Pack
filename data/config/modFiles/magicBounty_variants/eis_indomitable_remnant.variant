@@ -1,0 +1,77 @@
+{
+  "variantId": "eis_indomitable_remnant",
+  "hullId": "eis_indomitable",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 26,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "armoredweapons",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "reinforcedhull",
+    "csp_penaltylessautomated",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "atropos",
+        "WS0006": "atropos",
+        "WS0007": "atropos",
+        "WS0008": "atropos"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 014": "eis_celestials_aster",
+        "WS 016": "eis_celestials_aster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "eis_superheavy_needler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "devastator"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "flak",
+        "WS0002": "flak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "vulcan",
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

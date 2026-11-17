@@ -18,7 +18,7 @@ public class RaptorpackDoctrine extends SCBaseSkillPlugin {
 	public static float DAMAGE_TO_LARGER_BONUS_DEST = 10f;
 	public static float PEAK_TIME_BONUS = 15f;
 	public static float PEAK_TIME_BONUS_DEST = 15f;
-	public static float DP_REDUCTION = 0.15f;
+	public static float DP_REDUCTION = 0.10f;
 	public static float DP_REDUCTION_MAX = 6f;
 	// Merc variables
 	public static float DAMAGE_TO_LARGER_BONUS_MERC = 10f;
@@ -35,7 +35,7 @@ public class RaptorpackDoctrine extends SCBaseSkillPlugin {
 		tooltipMakerAPI.addPara("   - 10%% increased damage against larger hull size for cruisers and destroyers", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "10%");
 		tooltipMakerAPI.addPara("Increased peak operating time for cruisers and destroyers", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
 		tooltipMakerAPI.addPara("   - 15%% increased operating time for cruisers and destroyers", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "15%");
-		tooltipMakerAPI.addPara("Deployment point cost reduced by 15%% or 8, whichever is less", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
+		tooltipMakerAPI.addPara("Deployment point cost reduced by 10%% or 6, whichever is less", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
 		/// 
 		tooltipMakerAPI.addPara("Additional bonus if the officer is a mercenary", 10f, Misc.getStoryOptionColor(), Misc.getStoryOptionColor());
 		tooltipMakerAPI.addPara("+10%% increased damage against larger hull size for cruisers and destroyers", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());

@@ -12,8 +12,8 @@ public class MercAptitude extends SCBaseAptitudePlugin {
     public static boolean haveGettag;
 
     public void addCodexDescription(TooltipMakerAPI tooltipMakerAPI) {
-        tooltipMakerAPI.addPara("Mercenary offers the wisdom of the veteran, those who fought and lived through the sector's many conflicts, passing on their flexible but niche skills that can round out any fleet, with a lean toward benefits for destroyers and cruisers. " +
-                        "It also offers benefits for a specialized set of fighter-like frigates. ",
+        tooltipMakerAPI.addPara("Mercenary offers the wisdom of countless veterans, those who fought and lived through the sector's many conflicts, passing on their flexible but niche skills that can round out any fleet, with a lean toward benefits for destroyers and cruisers." +
+                        "It also offers benefits for a specialized set of fighter-like frigates and utilizing mercenaries.",
                 0f, Misc.getTextColor(), Misc.getHighlightColor(), "Mercenary", "");
     }
     //The ID of the skill that is always active

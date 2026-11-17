@@ -22,11 +22,11 @@ public class csp_xivremnant extends BaseHullMod {
 	 */
 
 	//private static final float ARMOR_BONUS_MULT = 1.1f;
-	private static final float ARMOR_BONUS = 300f;
+	private static final float ARMOR_BONUS = 200f;
 	private static final float CAPACITY_MULT = 1.10f;
 	private static final float DISSIPATION_MULT = 1.10f;
-	private final float explosive = -33f;
-	public static final float ARMOR_DAMAGE_MULT = 90f;
+	private final float explosive = -20f;
+	public static final float ARMOR_DAMAGE_MULT = 95f;
 	/*private static Map mag = new HashMap();
 	static {
 		mag.put(HullSize.FIGHTER, 0.0f);
@@ -65,10 +65,10 @@ public class csp_xivremnant extends BaseHullMod {
 						+ "\n- Reduced High Explosive Damage to Armor: %s"
 						+ "\n- Reduced Armor Damage: %s", pad, green,
 				new String[] {
-						Misc.getRoundedValue(300.0f) + "", // Armor Bonus
+						Misc.getRoundedValue(200.0f) + "", // Armor Bonus
 						Misc.getRoundedValue(10.0f) + "%", // Increased Flux Cap and Diss
-						Misc.getRoundedValue(33.0f) + "%", // Reduced HE DMG to Armor
-						Misc.getRoundedValue(10.0f) + "%", // Reduced Armor Damage
+						Misc.getRoundedValue(20.0f) + "%", // Reduced HE DMG to Armor
+						Misc.getRoundedValue(5.0f) + "%", // Reduced Armor Damage
 				});
 	}
 

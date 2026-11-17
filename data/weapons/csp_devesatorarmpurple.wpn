@@ -1,0 +1,46 @@
+{
+  "id": "csp_devesatorarmpurple",
+  "specClass": "projectile",
+  "projectileSpecId": "devastator_shot",
+  "type": "BALLISTIC",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/Cetan Devesator Arm purple.png",
+  "hardpointSprite": "graphics/weapons/Cetan Devesator Arm purple.png",
+  "turretOffsets": [
+    31,
+    3,
+    31,
+    -6
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    49,
+    3,
+    49,
+    -6
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 45,
+    "spread": 25,
+    "particleSizeMin": 12,
+    "particleSizeRange": 22,
+    "particleDuration": 0.13,
+    "particleCount": 35,
+    "particleColor": [
+      255,
+      225,
+      165,
+      175
+    ]
+  },
+  "fireSoundTwo": "devastator_fire"
+}

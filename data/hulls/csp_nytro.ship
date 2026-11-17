@@ -1,0 +1,244 @@
+{
+  "hullName": "Nytrohead",
+  "hullId": "csp_nytro",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/csp_nytrobody.png",
+  "style": "LOW_TECH",
+  "height": 92,
+  "width": 120,
+  "center": [60, 52],
+  "collisionRadius": 74,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 72,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged",
+    "csp_smallballisticattunement",
+    "insulatedengine"
+  ],
+  "builtInWeapons": {
+    "AGUN": "csp_nytro_arm",
+    "AGUN2": "csp_nytro_arm2",
+    "WS0007": "csp_nytro_head",
+    "WS0010": "csp_nytro_deco"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [13, -0],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [14, -21],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [14, 21],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-12, -37],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -0,
+      "locations": [-12, 37],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [31, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 0,
+      "locations": [-11.5, -0],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "AGUN",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -15,
+      "locations": [18, -40]
+    },
+    {
+      "id": "AGUN2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 15,
+      "locations": [18, 40]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-6, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "TGUN",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": -15,
+      "locations": [18, -40]
+    },
+    {
+      "id": "TGUN2",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 50,
+      "angle": 15,
+      "locations": [18, 40]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-42.5, 39.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-42.5, -39.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-47, -16],
+      "length": 35,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-47, 16],
+      "length": 35,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-32, -51],
+      "length": 28,
+      "width": 14,
+      "angle": -160,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-33, 51],
+      "length": 28,
+      "width": 14,
+      "angle": 155,
+      "contrailSize": 14,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, -29],
+      "length": 30,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-41, 29],
+      "length": 30,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-44, -0],
+      "length": 50,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -45, 5,
+    -41, 9,
+    -48, 11,
+    -48, 21,
+    -42, 22,
+    -42, 36,
+    -30.5, 45,
+    -35, 47.5,
+    -31, 55,
+    -18, 52,
+    -7, 60,
+    36, 17,
+    36, -17,
+    -7, -60,
+    -18, -52,
+    -31, -55,
+    -35, -47.5,
+    -30.5, -45,
+    -42, -36,
+    -42, -22,
+    -48, -21,
+    -48, -11,
+    -41, -9,
+    -45, -5
+  ]
+}

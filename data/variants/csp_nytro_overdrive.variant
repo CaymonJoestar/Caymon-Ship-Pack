@@ -1,14 +1,14 @@
 {
-  "variantId": "csp_LGbazaarfalcon_strike",
-  "hullId": "csp_LGbazaarfalcon",
-  "displayName": "Strike",
+  "variantId": "csp_nytro_overdrive",
+  "hullId": "csp_nytro",
+  "displayName": "Overdrive",
   "goalVariant": true,
-  "fluxCapacitors": 20,
-  "fluxVents": 26,
+  "fluxCapacitors": 6,
+  "fluxVents": 0,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "targetingunit",
+    "safetyoverrides",
     "missile_autoloader"
   ],
   "weaponGroups": [
@@ -16,46 +16,49 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 007": "heavyneedler",
-        "WS 008": "heavyneedler"
+        "WS0001": "lightdualmg",
+        "WS0002": "lightdualmg",
+        "WS0003": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 005": "phasebeam",
-        "WS 006": "phasebeam"
+        "TGUN": "lightag",
+        "TGUN2": "lightag"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 009": "vulcan",
-        "WS 010": "vulcan"
+        "WS0004": "vulcan",
+        "WS0005": "vulcan"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS 001": "reaper",
-        "WS 002": "reaper"
+        "WS0006": "hammer"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS 003": "mininglaser",
-        "WS 004": "mininglaser"
+        "WS0007": "csp_nytro_head"
       }
     }
   ],
-  "modules": [],
-  "wings": [
-    "wasp_wing",
-    "wasp_wing"
-  ]
+  "modules": [
+    {
+      "WS0008": "csp_deputy_legL_module"
+    },
+    {
+      "WS0009": "csp_deputy_legR_module"
+    }
+  ],
+  "wings": []
 }

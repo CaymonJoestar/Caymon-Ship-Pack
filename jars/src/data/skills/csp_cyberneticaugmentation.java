@@ -44,7 +44,7 @@ public class csp_cyberneticaugmentation extends SCBaseSkillPlugin {
 			return;
 		}
 		FleetMemberAPI ship = stats.getFleetMember();
-		if (ship == null){
+		if (ship == null) {
 			return;
 		}
 		if (ship.getFleetData() == null) {
@@ -82,7 +82,7 @@ public class csp_cyberneticaugmentation extends SCBaseSkillPlugin {
 			else {
 				DPCostReducer += 5f;
 			}
-			stats.getDynamic().getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyFlat(id, -DPCostReducer);
+			stats.getDynamic().getMod(Stats.DEPLOYMENT_POINTS_MOD).modifyPercent(id, -DPCostReducer);
 		}
 	}
 

@@ -17,7 +17,7 @@ public class Mechcraft extends SCBaseSkillPlugin {
 	public static float DAMAGE_TO_DESTROYERS = 10;
 	public static float DAMAGE_TO_CRUISERS = 10;
 	public static float DAMAGE_TO_CAPITALS = 10;
-	public static float FLUX_COST_MULT = .90f;
+	public static float FLUX_COST_MULT = .95f;
 	public static float RATE_DECREASE_MODIFIER = 20f;
 	public static float RATE_INCREASE_MODIFIER = 20f;
 	public static final float BEAM_DAMAGE_REDUCTION = 0.20f;
@@ -38,7 +38,7 @@ public class Mechcraft extends SCBaseSkillPlugin {
 		tooltipMakerAPI.addPara("Ships equipped with the \"Strikecraft\" hullmod gain the following effects", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
 		tooltipMakerAPI.addPara("   -Deployment point cost reduced by 10%% or 3, whichever is less", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "10%");
 		tooltipMakerAPI.addPara("   -Increased damage against cruisers and capitals by 10%%", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "10%");
-		tooltipMakerAPI.addPara("   -Decreased energy and ballistic weapons flux cost by 10%%", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "10%");
+		tooltipMakerAPI.addPara("   -Decreased energy and ballistic weapons flux cost by 5%%", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "10%");
 		tooltipMakerAPI.addPara("   -Decreased damage taken by beam weapons by 20%%", 0f, Misc.getTextColor(), Misc.getHighlightColor(), "20%");
 	}
 

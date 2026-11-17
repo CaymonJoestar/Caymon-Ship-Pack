@@ -45,7 +45,7 @@
 		"maxAutogenFleetSize": 6
 	}
 },
-
+	
 		"TechSupport":{
 			"name":"Premium Tri Tachyon Tech Support",
 			"desc":"Thank you for signing up for Tri-Tachyon's Premium Nitro First class Prime One Pass Unlimited Platnium tier box Club! By becoming a Patron, you get access to numerous Tri-Tachyon technology, However, If you sign up for this excluvise offer, you'll get excluvise access to our Top of the line Robotics Services! Sponsored by Raid Shado-",
@@ -73,6 +73,103 @@
 			"miscData":{
 				"ignoreMarketRelationship":true,
 			}
-		}
+		},
+		"csp_tokuTeam":{
+			"requiredMods":["armaa"],
+			"name":"Secondary Colors",
+			"desc":"Four pilots, Fours colors, one mandatory entrance. Their record is, irritatingly, excellent just like their colleagues.",
+			"feeUpfront":100000,
+			"feeMonthly":5000,
+			"faction":"mercenary",
+			"minRep":"VENGEFUL",
+			"minLevel":5,
+			"ships":[
+				["csp_MidlineMechpurple_ranger"],
+				["armaa_einhander_Strike"],
+				["armaa_valkenx_frig_assault"],
+				["csp_rickdiazpink_ranger"],
+			],
+			"officers":[
+				{
+					#"firstName":"R",
+					#"gender":"f",
+					"portrait":"graphics/portraits/csp_tokuPurple.png",
+					"level":5,
+					"rankId":"armaa_tokuMerc",
+					#"voice":"armaa_tokuRed",
+					"firstName":"Starfar Purple",
+					"lastName":"",					
+					"persistentId":"csp_tokuPurple",
+					#"chatterCharacterId":"armaa_tokuRed",
+					"skills":{
+							"armaa_VeteranPilot":2,
+							"field_modulation":2,
+							"systems_expertise":2,
+							"target_analysis":2,
+							"missile_specialization":2,
+							},
+					"averageSMods":2,
+				},
+				{
+					#"firstName":"Wiseman",
+					#"gender":"m",
+					"portrait":"graphics/portraits/csp_tokuBlack.png",
+					"level":4,
+					"rankId":"armaa_tokuMerc",
+					"firstName":"Starfar Black",
+					"lastName":"",						
+					"persistentId":"csp_tokuBlack",					
+					#"chatterCharacterId":"armaa_tokuBlue",
+					"skills":{
+							"energy_weapon_mastery":2,
+							"systems_expertise":1,
+							"combat_endurance":1,
+							"gunnery_implants":1,							
+							},				
+					"averageSMods":2,
+				},
+				{
+					#"firstName":"Pariah",
+					"gender":"f",
+					"portrait":"graphics/portraits/csp_tokuYellow.png",
+					"level":4,
+					"rankId":"armaa_tokuMerc",
+					"firstName":"Starfar Yellow",
+					"lastName":"",	
+					#"chatterCharacterId":"armaa_tokuGreen",
+					"skills":{
+							"systems_expertise":2,
+							"field_modulation":2,
+							"gunnery_implants":1,
+							"target_analysis":1,
+							},					
+					"persistentId":"csp_tokuYellow",					
+					"averageSMods":2,
+				},
+				{
+					#"firstName":"Pariah",
+					"gender":"f",
+					"portrait":"graphics/portraits/csp_tokuPink.png",
+					"level":4,
+					"rankId":"armaa_tokuMerc",
+					"firstName":"Starfar Pink",
+					"lastName":"",	
+					#"chatterCharacterId":"armaa_tokuGreen",
+					"skills":{
+							"armaa_VeteranPilot":2,
+							"impact_mitigation":2,
+							"polarized_armor":2,
+							"target_analysis":1,
+							},					
+					"persistentId":"csp_tokuPink",					
+					"averageSMods":2,
+				},
+			],
+			"averageSMods":2,
+			"miscData":{
+				"angeredByInsults":true,
+				"ignoreMarketRelationship":true,
+			},
+		},
 	}
 }

@@ -2,6 +2,7 @@ name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hid
 Modified Terminator Core,csp_terminatorcore,,,,codex_unlockable,,,,TRUE,,0,0,0,0,data.hullmods.csp_terminatorcore,"A modified terminator core, modified to to be useable on bigger fighter chassis and for non-ai use",,graphics/hullmods/terminator_core.png
 Phase Injector,csp_phaseinjector,,,,,,,,TRUE,,0,0,0,0,data.hullmods.csp_PhaseInjector,Specialized thrusters that function while a phase ship is in phase space.,,graphics/hullmods/phase_injector.png
 Multi-Layered Shielding,csp_multi_layered_shielding,,,,,,,,TRUE,,0,0,0,0,data.hullmods.csp_multi_layered_shielding,"A improvement upon the solar shielding techology, developed to help ships of the Diktat survive the extreme storms of a Water World and the Seas of Volturn. Along with use in combat situations and due to such, is largely excluvise to the Diktat's Lion Guard at this time to serve as a hidden advantage against their enemies.",,graphics/hullmods/csp_shield.png
+Small Ballistic Attunement,csp_smallballisticattunement,,,,,,,,TRUE,,0,0,0,0,data.hullmods.csp_SmallBallisticsattunement,"This ship has been extensively tuned and calibrated to get better performance from its weaponry using combat data from countless battles, improving the general performance of its small ballistic weaponry.",,graphics/hullmods/expanded_magazines.png
 Cetan Frame,csp_cetanframe,,,,,,,,TRUE,,0,0,0,0,data.hullmods.csp_cetanframe,"A type of frame first made for the Cetan Mech. This is what allows the Cetan and similar mechs that use this frame to able perform as well as they do. However the frame is often pushed to it's limit in Combat by default, making installing any Safety Overrides Redundant",,graphics/hullmods/Cetan_frame.png
 """Fourtheeth Pirategroup""",csp_piratexiv,,,,codex_unlockable,,,,TRUE,,0,0,0,0,data.hullmods.csp_piratexiv,"A wolf in sheep's clothing, this ship has been modified with the external plating of Fourteenth Battlegroup vessels ""acquired"" by Hegemony spacers turned pirate. Such a tactic has fooled many a captain into believing they were passing a normal Hegemony fleet rather than entering a crafty trap.",,graphics/hullmods/xivpirate.png
 XIV... Remnant?,csp_xivremnant,,,,codex_unlockable,,,,TRUE,,0,0,0,0,data.hullmods.csp_xivremnant,"This should not be possible. All logic should say otherwise. This cannot exist. Yet, here it is, a Remnant vessel constructed with an alloy that is exotic, yet resembles armor of the Fourteenth Battlegroup vessels. It was likely made from the armor of salvaged or captured XIV ships as this alloy cannot be created with industrial methods known to man alive in Persean Sector. The only remaining explanation is an AI creating the design and overseeing the construction itself. One shudders to think what this design's capabilities are. Ludd's mercy to any who experience this Abomination's wrath firsthand.",,graphics/hullmods/xivremnant.png
@@ -9,12 +10,16 @@ XIV... Remnant Fighters?,csp_xivremnantF,,,,codex_unlockable,,,,TRUE,,0,0,0,0,da
 Energy Defense Ampifier,csp_csp_Energyamplifier,,,,,,,,TRUE,,0,0,0,0,data.hullmods.csp_Energyamplifier,"Amplifiers added onto the weapons mounts, allowing for energy based point defense to have further reach to intercept and destroy missile and fighters ",,graphics/hullmods/csp_Energy Defense Ampifier.png
 Phase Tank,csp_ArmoredCoil,2,,,"phase,merc,tritachyon",Phase,24000,,,,8,15,20,40,data.hullmods.csp_ArmoredCoil,An armored refit for phase ships that trade their speed and distance and time diluation effect while phased to be able to have more armor in key areas to overall make the ship harder to kill,,graphics/hullmods/phase_tank.png
 Strikecraft Caller,csp_strikecraft,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_strikecraft,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
+Sierra Caller,csp_sierracraft,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_sierramechcaller,"Thank you Raccoon, Very cool",,graphics/hullmods/xivremnant.png
+Penaltyless Automated,csp_penaltylessautomated,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_penaltylessautomated,"Future me, use this to make automated variants",,graphics/hullmods/xivremnant.png
 Core Unit Caller,csp_coreunit,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_coreunit,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
 WINGCOM Caller,csp_wingcom,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_wingcom,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
+HI-MAC Caller,csp_himac,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_himac,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
 Overlord Suite Caller A,csp_overlordA,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_overlordA,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
 Overlord Suite Caller B,csp_overlordB,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_overlordB,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
 Overlord Suite Caller G,csp_overlordG,,,,,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_overlordG,"Thank you Gettag, Very cool",,graphics/hullmods/xivremnant.png
-Interchangeable Arms,csp_cetanweaponSwap,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_cetanweaponSwap,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+Interchangeable Arms,csp_cetanweaponSwap,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_cetanweaponSwap,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+Interchangeable Arms,csp_cetanweaponSwap2,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_cetanweaponSwap2,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 R ARM: BUSTER,csp_selector_buster,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_buster,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires a bunch of projectiles that are effective against armor and shields alike.
@@ -50,7 +55,7 @@ L ARM: FTYPE BLASTER,csp_selector_ftype,,,,"no_build_in,hide_in_codex",,,,TRUE,,
 %s does absolutely nothing but helps you keep your flux mangement undercontrol if you're running flux heavy weaponry by not contributing to it.
 
 %s",,graphics/hullmods/hand_l.png
-Lion's Armory,csp_lionarmory,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_lionarmory,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+Lion's Armory,csp_lionarmory,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_lionarmory,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 R ARM: LION'S CLAW,csp_selector_claw,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_claw,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires a bunch of projectiles that are effective against armor and shields alike.
@@ -81,7 +86,7 @@ L ARM: NEEDLER ARM,csp_selector_needler,,,,"no_build_in,hide_in_codex",,,,TRUE,,
 %s excels at quickly bursting down shields along with a side benefit of providing minimal PD capablities
 
 %s",,graphics/hullmods/hand_l.png
-Pirate Strap ons,csp_piratestrapons,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_piratestrapons,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+Pirate Strap ons,csp_piratestrapons,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_piratestrapons,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 L ARM: ANNIHILATOR ARM,csp_selector_annihilator,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_annihilator,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires a bunch of missiles that provide an easy source of anti armor.
@@ -112,7 +117,7 @@ R ARM: THUMPER ARM,csp_selector_thumper,,,,"no_build_in,hide_in_codex",,,,TRUE,,
 %s provides point defense against missiles and fighters
 
 %s",,graphics/hullmods/hand_r.png
-AI Overlords,csp_aioverlords,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_aioverlords,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+AI Overlords,csp_aioverlords,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_aioverlords,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 R ARM: LOCUST ARM,csp_selector_locust,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_locust,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires upgraded annihilator rockets that track their target and inflict energy damage. Does more damage to shields.
@@ -141,7 +146,7 @@ L ARM: PULSE ARM,csp_selector_pulseL,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0
 The %s fires a constant flow of energy shots, making for a good general purpose weapon.
 
 %s",,graphics/hullmods/hand_l.png
-AI Strikecraft Overlords,csp_aistrikecraftoverlords,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_aistrikecraftoverlords,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+AI Strikecraft Overlords,csp_aistrikecraftoverlords,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_aistrikecraftoverlords,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 R ARM: MISSLE LAUNCHER ARM,csp_selector_missile_launcher_R,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_missile_launcher_R,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires a barrage of small missiles rapidly that hurts armor
@@ -172,7 +177,7 @@ L ARM: ROCKET LAUNCHER ARM,csp_selector_rocket_launcher,,,,"no_build_in,hide_in_
 The %s fires a powerful missile that deals a a lot of damage to armor
 
 %s",,graphics/hullmods/hand_l.png
-The Old Ways,csp_oldways,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_oldways,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+The Old Ways,csp_oldways,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_oldways,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 R ARM: ASSAULT RIFLE ARM,csp_selector_assaultrifle,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_assaultrifle,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires a barrage of small missiles rapidly that hurts armor
@@ -213,7 +218,7 @@ R ARM: MAGLEV GENERATOR ARM,csp_selector_maglev,,,,"no_build_in,hide_in_codex",,
 The %s fires a powerful missile that deals a a lot of damage to armor
 
 %s",,graphics/hullmods/hand_l.png
-Armored Core,csp_armoredcore,,,,no_build_in,,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_armoredcore,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
+Armored Core,csp_armoredcore,,,,"no_build_in,hide_in_codex",,,,TRUE,TRUE,0,0,0,0,data.hullmods.csp_armoredcore,This machine can be customized.,,graphics/icons/markets/rogue_ai.png
 R ARM: JACKHAMMER ARM,csp_selector_jackhammer,,,,"no_build_in,hide_in_codex",,,,TRUE,,0,0,0,0,data.hullmods.csp_selector_jackhammer,"HAND weapons can be changed to better suit the pilot's preferences. 
 
 The %s fires a barrage of small missiles rapidly that hurts armor

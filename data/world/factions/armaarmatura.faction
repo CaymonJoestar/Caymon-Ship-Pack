@@ -6,6 +6,7 @@
 				"csp_deputy":0.5,
 				"csp_stheno":0.5,
 				"csp_wyrm":0.75,
+				"csp_nytro":0.50,
 				"csp_advocator":0.50,
 				"csp_dijeh":1,
 				"csp_rickdiaz":0.50,
@@ -14,6 +15,7 @@
 	"knownShips":{
 		"hulls":[	
 				"csp_stheno",
+				"csp_nytro",
 				"csp_MidlineMech",
 				"csp_deputy",
 				"csp_wyrm",

@@ -11,8 +11,8 @@ import second_in_command.specs.SCBaseSkillPlugin;
 
 public class CoordinatedStrikeAttack extends SCBaseSkillPlugin {
 
-	public static float FLUX_PER_OP = 2f;
-	public static float CAP_PER_OP = 20;
+	public static float FLUX_PER_OP = 3f;
+	public static float CAP_PER_OP = 30;
 	//
 	public static float RANGE_BONUS = 100f;
 
@@ -31,8 +31,8 @@ public class CoordinatedStrikeAttack extends SCBaseSkillPlugin {
 
 	@Override
 	public void addTooltip(SCData scData, TooltipMakerAPI tooltipMakerAPI) {
-		tooltipMakerAPI.addPara("+2 flux dissipation per ordnance point spend on fighters", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
-		tooltipMakerAPI.addPara("+20 flux capacity per ordnance point spend on fighters", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
+		tooltipMakerAPI.addPara("+3 flux dissipation per ordnance point spend on fighters", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
+		tooltipMakerAPI.addPara("+30 flux capacity per ordnance point spend on fighters", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());
 		///
 		tooltipMakerAPI.addPara("Additional bonus if the officer is a mercenary", 10f, Misc.getStoryOptionColor(), Misc.getStoryOptionColor());
 		tooltipMakerAPI.addPara("+100 range to non-missile weapons on fighters if their engagement range are below 500 units", 0f, Misc.getHighlightColor(), Misc.getHighlightColor());

@@ -13,7 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "dedicated_targeting_core",
-    "missile_autoloader"
+    "missile_autoloader",
+    "defensive_targeting_array"
   ],
   "builtInWings": [
     "sarissa_wing",

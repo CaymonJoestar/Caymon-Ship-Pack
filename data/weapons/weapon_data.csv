@@ -9,6 +9,10 @@ Normal Mech Arm,csp_midline_arm_left,0,,,0,0,,,0,10,0,1,,,ENERGY,,0,0,0,0.3,0.1,
 ,csp_midline_shoulderRdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,708
 ,csp_midline_torsodeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,708
 ,csp_chestplate,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,710
+,csp_midline_shoulderLpurpledeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,707
+,csp_midline_shoulderRpurpledeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,708
+,csp_midline_torsopurpledeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,708
+,csp_chestplatepurple,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,710
 ,csp_LG_shoulderLdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,714
 ,csp_LG_shoulderRdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,715
 ,csp_LG_arm_left,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,716
@@ -27,6 +31,8 @@ Normal Mech Arm,csp_midline_arm_left,0,,,0,0,,,0,10,0,1,,,ENERGY,,0,0,0,0.3,0.1,
 ,csp_ruination_deco2,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,724
 ,csp_lowtechmech_shoulderR,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,728
 ,csp_lowtechmech_shoulderL,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,729
+,csp_lowtechmechxiv_shoulderR,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,729
+,csp_lowtechmechxiv_shoulderL,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,729
 ,csp_lowtechmech_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,727
 ,csp_deputy_shoulderRdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,728
 ,csp_deputy_shoulderLdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,729
@@ -40,7 +46,9 @@ Normal Mech Arm,csp_midline_arm_left,0,,,0,0,,,0,10,0,1,,,ENERGY,,0,0,0,0.3,0.1,
 ,csp_derelicthead,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,738
 ,csp_derelictbody_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,738
 ,csp_lowtechmech_shoulder2R,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,739
+,csp_lowtechmech_shoulder2Rpink,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,739
 ,csp_lowtechmech_shoulder2L,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,740
+,csp_lowtechmech_shoulder2Lpink,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,740
 ,csp_lowtechmechxiv_bodydeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,740
 ,csp_hellbore_arm,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,740
 ,csp_hellbore_arm2,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,740
@@ -48,6 +56,9 @@ Normal Mech Arm,csp_midline_arm_left,0,,,0,0,,,0,10,0,1,,,ENERGY,,0,0,0,0.3,0.1,
 ,csp_wyrm_arm,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,741
 ,csp_wyrm_arm2,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,742
 ,csp_wyrm_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,743
+,csp_nytro_arm,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,741
+,csp_nytro_arm2,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,742
+,csp_nytro_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,743
 ,csp_wyrm_shoulder_L,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,743
 ,csp_wyrm_shoulder_R,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,743
 ,csp_remnantarmor_Lshoulder,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
@@ -55,9 +66,19 @@ Normal Mech Arm,csp_midline_arm_left,0,,,0,0,,,0,10,0,1,,,ENERGY,,0,0,0,0.3,0.1,
 ,csp_remnantarmor_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
 ,csp_lusterbody_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
 ,csp_diazbody_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_diazxivbody_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
 ,csp_remnantgundeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
 ,csp_remnantgundeco2,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
 ,csp_rickdiazbody_deco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_rickdiazbody_pinkdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_remnantsuper_shoulderLdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_remnantsuper_shoulderRdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_remnant_rightArm,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_sierra_rightArm,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_remnantsupermech_body,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_sierra_shoulderLdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_sierra_shoulderRdeco,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
+,csp_sierramech_body,,,,,,,,,,0,,,,,,,,,,,,,,,,,,,,SYSTEM,,,,,,,,,,,,,,,999
 Tactical laser (Short Range),csp_taclaserShort,0,,,800,100,,,0,20,4,,,,ENERGY,,60,0.1,0.1,,,,,,,2400,,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,700.2
 Doombore Cannon,csp_doombore,0,,,600,,500,,100,5,0,3,,,HIGH_EXPLOSIVE,0,,0,2,1,,0,5,5,10,,500,,,400,"STRIKE, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti-Armor,,,,,,,,,,700.3
 Option Lance,csp_option_lance,0,,,600,1250,,,0,0,0,4,,,ENERGY,,300,0.25,0.5,1,4,,,,,3200,,,,,"STRIKE,USE_VS_FRIGATES, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Hull Breaker,,,,,,,,,,700.4
@@ -73,20 +94,28 @@ Triple Pulse Laser,csp_triplepulse,0,,,700,,150,,0,20,0,,,,ENERGY,80,,0.333333,0
 #IR Pulse Laser,irpulse,1,,250,500,,50,,0,50,5,,,,ENERGY,40,,0.33,0,,,,,,,,1000,,,,,,,,,,,General,,,,,,,,
 Mini-Torpedo Launcher,csp_mini_torpedolauncher,0,,,1500,,325,,25,15,0,20,0.3,2,HIGH_EXPLOSIVE,,,0,6,2,0.5,0,0,0,0,,350,500,8,250,"STRIKE, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti Armor,Medium,Average,,,,,,,,724
 Buster Assault,csp_Buster_Rifle,0,,,700,,300,,0,10,0,20,0.5,5,ENERGY,400,,0,0.3,1,,0,0,2,5,,500,,,,"STRIKE, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,700.8
+Buster Assault,csp_Buster_Riflepurple,0,,,700,,350,,0,10,0,20,0.5,5,ENERGY,300,,0,0.3,1,,0,0,2,5,,500,,,,"STRIKE, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,700.8
 Lion's Claw,csp_LG_Buster_assault,0,,,700,,300,,0,10,0,20,0.6,5,ENERGY,300,,0,0.3,1,,0,0,2,5,,500,,,,"STRIKE, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,700.81
 Head Defense Beam,csp_HeadBeam,0,,,500,300,,,0,100,6,3,0.5,,ENERGY,,200,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR",,,,,Point Defense,,Good,,,,,,,,700.9
+Head Defense Beam,csp_HeadBeampurple,0,,,500,300,,,0,100,6,3,0.5,,ENERGY,,100,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR",,,,,Point Defense,,Good,,,,,,,,700.9
 Surprise! Lance,csp_piratelance,0,,,500,420,,,0,20,0,,,,ENERGY,,800,0.25,0.5,1,3,,,,,3200,,,,,"STRIKE, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,705
 Lion's Gaze,csp_LGHeadBeam,0,,,500,300,,,0,100,5,5,0.6,,ENERGY,,100,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR",,,,,Point Defense,,Good,,,,,,,,700.91
 Mini Head Beam,csp_lusterhead,0,,,500,250,,,0,100,0,3,0.5,,ENERGY,,200,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Point Defense,,Good,,,,,,,,721
 Vulcan Head,csp_lowtechmech_head,0,,,325,,25,,1,75,0,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,"PD,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Point Defense,,,,,,,,,,724
+Vulcan Head,csp_lowtechmechxiv_head,0,,,325,,40,,1,75,0,,,,FRAGMENTATION,1,,0,0.05,2,,0,15,1,15,,800,,,10,"PD,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Point Defense,,,,,,,,,,724
+Vulcan Head,csp_nytro_head,0,,,325,,40,,1,75,0,,,,FRAGMENTATION,1,,0,0.05,2,,0,15,1,15,,800,,,10,"PD,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Point Defense,,,,,,,,,,724
 Armored Vulcan Head,csp_deputy_head,0,,,325,,25,,1,75,0,,,,FRAGMENTATION,1,,0,0.05,1,,0,15,1,15,,800,,,10,"PD,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Point Defense,,,,,,,,,,725
 The Lion's Eye,csp_uniHeadBeam,0,,,600,500,,,0,100,0,8,0.6,,ENERGY,,150,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Point Defense,,Good,,,,,,,,700.91
 Mark 9 Cannon Arm,csp_Mark9arm,0,,,700,,300,,20,10,0,,,,KINETIC,200,,0,3,2,0.1,0,10,2,5,,800,,,100,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,Anti Shield,,,,,,,,,,702
+Mark 9 Cannon Arm,csp_Mark9armpurple,0,,,700,,325,,20,10,0,,,,KINETIC,150,,0,3,2,0.1,0,10,2,5,,800,,,100,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,Anti Shield,,,,,,,,,,702
 Squall Burst Launcher,csp_squallburst,0,,,1200,,225,50,15,20,0,60,0.2,2,KINETIC,0,,0,5,2,0.5,0,0,0,0,,600,200,7.00,500,"DO_NOT_AIM, STRIKE, USE_VS_FRIGATES,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Suppression,Very Fast,Medium,,,,,,,,702.1
+Squall Burst Launcher,csp_squallburstpurple,0,,,1200,,275,50,15,20,0,60,0.2,2,KINETIC,0,,0,5,2,0.5,0,0,0,0,,600,200,7.00,500,"DO_NOT_AIM, STRIKE, USE_VS_FRIGATES,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Suppression,Very Fast,Medium,,,,,,,,702.1
 Dual Light Assault Gun Arm,csp_lagarm,0,,,800,,60,,3,40,0,,,,HIGH_EXPLOSIVE,50,,0,0.25,1,,0,3,1,3,,800,,,50,"PD_ALSO,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti Armor,,,,,,,,,,703
 Annihilator Arm,csp_annihilatorarm,0,,,1500,,200,,5,40,0,50,0.5,10,HIGH_EXPLOSIVE,0,,0,5,5,0.2,0,0,0,0,,400,75,3.75,50,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,Anti Armor,Medium,,,,,,,,,704
 Whirlwind Swarm MIRV Arm,csp_cetanmirv,0,,,2500,,1000,,50,20,0,15,0.15,3,HIGH_EXPLOSIVE,0,,0,10,3,1,0,0,0,0,,400,75,15,600,"DO_NOT_AIM,SYSTEM,ANTI_FTR,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti Fighter,Medium,Good,,,,,,,TRUE,705
 Devastator Arm,csp_devesatorarm,0,,,700,,225,,40,18,0,,,,HIGH_EXPLOSIVE,150,,0,5,4,0.1,3,20,3,3,,700,,,100,"PD,PD_ALSO,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti Fighter (Area),,,,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.",,,706
+Whirlwind Swarm MIRV Arm,csp_cetanmirvpurple,0,,,2500,,1000,,50,20,0,15,0.15,3,HIGH_EXPLOSIVE,0,,0,8,3,1,0,0,0,0,,400,100,15,600,"DO_NOT_AIM,SYSTEM,ANTI_FTR,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti Fighter,Medium,Good,,,,,,,TRUE,705
+Devastator Arm,csp_devesatorarmpurple,0,,,700,,225,,40,18,0,,,,HIGH_EXPLOSIVE,150,,0,5,4,0.1,3,20,3,3,,700,,,100,"PD,PD_ALSO,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Anti Fighter (Area),,,,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.",,,706
 Mjolnir Arm L,csp_mjhonir_armL,0,,,750,,250,100,10,25,0,,,,ENERGY,300,,0,0.75,1,,0,5,1,10,,800,,,50,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,707
 Mjolnir Arm R,csp_mjhonir_armR,0,,,750,,250,100,10,25,0,,,,ENERGY,300,,0,0.75,1,,0,5,1,10,,800,,,50,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,707.1
 Pilum LRM Arm,csp_piliumarm,0,,,3000,,600,350,25,12,0,30,0.1,,FRAGMENTATION,0,,0,15,3,0.4,0,0,0,0,,250,125,30,200,"DO_NOT_AIM, CONSERVE_1,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Long Range Support,Slow,Very Poor,,,,,"Second-stage hits on shields have a chance to arc through to weapons and engines, dealing %s EMP damage. The chance to pierce the shields is based on the target's hard flux level.",500,,708
@@ -97,12 +126,12 @@ Breach SRM Arm,csp_motorheadbreacharm,0,,,1500,,150,,15,10,0,9,0.2,3,HIGH_EXPLOS
 Thumper Arm,csp_thumperarm,0,,,700,,100,,1,25,0,60,5,20,FRAGMENTATION,30,,0,0.55,20,0.05,0,7,1,20,,800,,,30,"PD,PD_ALSO,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,713
 Dual IR Pulse Laser Arm,csp_irpulsearm,0,,,700,,50,,0,50,0,,,,ENERGY,50,,0.333333,0,2,,,,,,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,714
 Built-in Proximity Charge Launcher,csp_phasecl,0,,,1000,,500,,25,30,0,30,0.5,10,HIGH_EXPLOSIVE,0,,0,1,1,,0,0,0,0,,150,400,4,500,"SYSTEM,ANTI_FTR,PD","no_drop,no_sell, no_drop_salvage",,,,Anti Fighter,Very Slow,None,,,,,,,TRUE,715
-Light Plasma Cannon Arm,csp_remnant_plasma,0,,,700,,350,,,20,0,,,,ENERGY,400,,0.33,1.01,3,0.33,,,,,,750,,,500,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,716
-Ion Pulsar Arm,csp_remnant_pulsar,0,,,600,,90,600,0,20,0,20,2,3,ENERGY,100,,0.05,0.05,3,0.1,3,20,1,4,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,Suppression,,,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,717
-Dual Pulse Laser Arm,csp_remnant_pulseL,0,,,600,,150,,0,20,0,,,,ENERGY,125,,0.333333,0,,,,,,,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,718
-Dual Pulse Laser Arm,csp_remnant_pulseR,0,,,600,,150,,0,20,0,,,,ENERGY,125,,0.333333,0,,,,,,,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,718.1
-Dual Antimatter Blaster Arm,csp_remnant_dualamb,0,,,600,,900,,0,30,0,4,0.1,2,ENERGY,1000,,0.25,10,,,0,0,0,0,,1000,,,100,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Strike,,,,,,,,,,719
-Dragonfly SRM Launcher Arm,csp_remnant_locust,0,,,1400,,350,,5,30,0,12,0.3,4,ENERGY,0,,0,4,4,0.1,0,0,0,0,,400,150,8,200,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_drop,no_sell, no_drop_salvage",,,,Anti Shield,Medium,Excellent,,,,,,,,720
+Light Plasma Cannon Arm,csp_remnant_plasma,0,,,700,,300,,,20,0,,,,ENERGY,325,,0.33,1.01,3,0.33,,,,,,750,,,500,"SYSTEM, STRIKE, USE_VS_FRIGATES","no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,716
+Ion Pulsar Arm,csp_remnant_pulsar,0,,,600,,120,600,0,20,0,20,2,3,ENERGY,100,,0.05,0.05,3,0.1,3,20,1,4,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,Suppression,,,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",25%,,717
+Dual Pulse Laser Arm,csp_remnant_pulseL,0,,,600,,150,,0,20,0,,,,ENERGY,110,,0.333333,0,,,,,,,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,718
+Dual Pulse Laser Arm,csp_remnant_pulseR,0,,,600,,150,,0,20,0,,,,ENERGY,110,,0.333333,0,,,,,,,,1000,,,,SYSTEM,"no_drop,no_sell, no_drop_salvage",,,,General,,,,,,,,,,718.1
+Dual Antimatter Blaster Arm,csp_remnant_dualamb,0,,,600,,800,,0,30,0,4,0.1,2,ENERGY,750,,0.25,8,,,0,0,0,0,,1000,,,100,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING, SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Strike,,,,,,,,,,719
+Dragonfly SRM Launcher Arm,csp_remnant_locust,0,,,1400,,450,,5,30,0,12,0.2,4,ENERGY,0,,0,5,4,0.1,0,0,0,0,,400,150,8,200,"SYSTEM, ANTI_FTR, DO_NOT_AIM, DO_NOT_CONSERVE","no_drop,no_sell, no_drop_salvage",,,,Anti Shield,Medium,Excellent,,,,,,,,720
 Heavy Rynex Autopulse Laser,csp_heavy_rifle,0,,,700,,900,,0,15,0,10,,,ENERGY,600,,,3,,,,,,,,1400,,,,SYSTEM,"no_drop, no_sell, no_drop_salvage",,Remnant,,General,,,,,,,,,,722.25
 "BS-04 ""Earthbuster"" Rocket Launcher",csp_bazooka,0,,,700,,500,,0,20,0,5,,,HIGH_EXPLOSIVE,,,,3,1,0.15,0,0,0,0,,800,500,5,300,"SYSTEM,STRIKE, USE_VS_FRIGATES, GROUP_LINKED","no_drop, no_sell, no_drop_salvage",,Remnant,,Strike,,,,,,,,,,719.2
 Ion Trace SMG,csp_Ionsmg,0,,,600,,70,100,0,20,0,15,2,3,ENERGY,50,,0.05,0.05,3,0.1,3,3,1,3,,1000,,,,"SYSTEM,STRIKE, USE_VS_FRIGATES,","no_drop, no_sell, no_drop_salvage",,Remnant,,Suppression,,,,,,,"Hits on hull or armor have a %s chance to arc to weapons and engines, dealing extra damage equal to the original hit.",15%,,721
@@ -125,6 +154,11 @@ Triple Pulse Laser Arm,csp_triplepulsearm,0,,,700,,150,,0,15,0,,,,ENERGY,80,,0.3
 Gigacannon Arm,csp_gigarm,3,,,700,,2000,,0,8,0,,,,ENERGY,1000,,1,7,,,0,0,0,0,,1000,,,,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING,SYSTEM","no_drop,no_sell, no_drop_salvage",,,,Strike,,,,,,,,,,737
 Andersson Slag Cannon Arm,csp_anderssonarm,1,,,600,,50,,0,25,0,32,1.6,8,HIGH_EXPLOSIVE,30,,0,1,8,0.05,0,5,1,20,,900,,,30,"PD,ANTI_FTR, SYSTEM","no_drop, no_sell, no_drop_salvage",,,,Point Defense,,,,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.",,,738
 F-Type Mining Blaster Arm,csp_ftypearm,1,,,700,,125,,8,30,0,12,0.666666,4,HIGH_EXPLOSIVE,190,,0.125,0,4,0.12,0,7,1,20,,1800,,,,"STRIKE,USE_VS_FRIGATES,USE_LESS_VS_SHIELDS,SYSTEM","no_drop, no_sell, no_drop_salvage",,,,Strike,,,,,,,,,,739
+F-Type Mining Blaster Arm,csp_ftypearmpurple,1,,,700,,175,,8,30,0,20,0.666666,4,HIGH_EXPLOSIVE,190,,0.125,0,4,0.12,0,7,1,20,,1800,,,,"STRIKE,USE_VS_FRIGATES,USE_LESS_VS_SHIELDS,SYSTEM","no_drop, no_sell, no_drop_salvage",,,,Strike,,,,,,,,,,739
 Maglev Mining Generator Arm,csp_maglevarm,1,,,550,,800,300,0,30,0,6,,,KINETIC,1000,,0.25,10,,,0,0,0,0,,900,,,100,"STRIKE, USE_VS_FRIGATES, GROUP_ALTERNATING,SYSTEM","no_drop, no_sell, no_drop_salvage",,,,Strike,,,,,,,,,,740
 Aged Jackhammer Arm,csp_derelict_hammer,0,,,1200,,1500,,30,20,0,4,0.1,2,HIGH_EXPLOSIVE,0,,0,9.5,2,0.25,10,10,0,0,,500,40,5,350,"STRIKE,SYSTEM","no_drop, no_sell, no_drop_salvage",,,,Torpedo,Fast,None,,,,,,,,742
 Aged Mark9 Autocannon Arm,csp_derelict_mark9,0,,,750,,130,,20,10,0,,,,KINETIC,150,,0,2,2,0.1,0,15,2,10,,800,,,100,SYSTEM,"no_drop, no_sell, no_drop_salvage",,,,Anti-Shield,,,,,,,,,,741
+LS-99 MOONLIGHT++,csp_remnant_blade,,,,250,1000,,200,20,80,,,,,ENERGY,,,0.35,1.5,0.6,0.2,,,,,700,,,,,SYSTEM,"no_drop, no_sell, no_drop_salvage, doNotModify",,Remnant,,Strike,,,,,"%s: Deals full damage immediately on contact, slightly pushing the user back.",The Sanctioned Action Is To Cut,,,TRUE,999
+LS-99 MOONLIGHT++,csp_sierra_blade,,,,250,1000,,200,20,80,,,,,ENERGY,,,0.35,1.5,0.6,0.2,,,,,700,,,,,SYSTEM,"no_drop, no_sell, no_drop_salvage, doNotModify",,Remnant,,Strike,,,,,"%s: Deals full damage immediately on contact, slightly pushing the user back.",The Sanctioned Action Is To Cut,,,TRUE,999
+Autolance Head,csp_remnant_autolancehead,0,,,500,400,,,0,100,0,8,0.6,,ENERGY,,100,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR,SYSTEM","no_drop,no_sell, no_drop_salvage",,Remnant,,Point Defense,,Good,,,,,,,,700.91
+Autolance Head,csp_sierra_autolancehead,0,,,500,400,,,0,100,0,8,0.6,,ENERGY,,100,0.1,0.1,0.3,0.1,,,,,10000,,,,,"PD,ANTI_FTR,SYSTEM","no_drop,no_sell, no_drop_salvage",,Remnant,,Point Defense,,Good,,,,,,,,700.91

@@ -1,0 +1,82 @@
+{
+  "variantId": "tahlan_nelson_xiv_remnant",
+  "hullId": "tahlan_nelson_xiv",
+  "displayName": "Remnnantizied",
+  "goalVariant": true,
+  "fluxCapacitors": 23,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "reinforcedhull",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "targetingunit",
+    "csp_penaltylessautomated",
+    "missleracks"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "tahlan_fount",
+        "WS0014": "tahlan_fount"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "mininglaser",
+        "WS0007": "mininglaser",
+        "WS0008": "mininglaser",
+        "WS0009": "mininglaser",
+        "WS0011": "mininglaser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "flak",
+        "WS0005": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "tahlan_mezoa",
+        "WS0003": "tahlan_mezoa"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "eis_superheavy_needler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0010": "reaper",
+        "WS0012": "reaper"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,61 @@
+{
+  "variantId": "eis_vanguard_xiv_remnant",
+  "hullId": "eis_vanguard_xiv",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 6,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "eis_damperhull",
+  "escort_package",
+  "reinforcedhull"
+  ],
+  "hullMods": [
+    "missleracks",
+    "csp_penaltylessautomated",
+    "armoredweapons",
+    "fluxbreakers"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 007": "tahlan_ramun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "atropos",
+        "WS 001": "atropos",
+        "WS 002": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "lightmg",
+        "WS 004": "lightmg"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "tahlan_gallant",
+        "WS 006": "tahlan_gallant"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

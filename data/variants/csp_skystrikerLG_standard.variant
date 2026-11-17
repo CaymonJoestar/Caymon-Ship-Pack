@@ -3,7 +3,7 @@
   "hullId": "csp_skystrikerLG",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 46,
+  "fluxCapacitors": 24,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
@@ -16,17 +16,14 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "autopulse",
-        "WS0002": "autopulse"
-      }
+      "weapons": {}
     },
     {
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0003": "pulselaser",
-        "WS0004": "pulselaser"
+        "WS0003": "kineticblaster",
+        "WS0004": "kineticblaster"
       }
     },
     {
@@ -51,12 +48,20 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0011": "pdlaser",
-        "WS0012": "pdlaser",
-        "WS0013": "pdlaser",
-        "WS0014": "pdlaser",
-        "WS0015": "pdlaser",
-        "WS0016": "pdlaser"
+        "WS0011": "mininglaser",
+        "WS0012": "mininglaser",
+        "WS0013": "mininglaser",
+        "WS0014": "mininglaser",
+        "WS0015": "mininglaser",
+        "WS0016": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "autopulse",
+        "WS0002": "autopulse"
       }
     }
   ],

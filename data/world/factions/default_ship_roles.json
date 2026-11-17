@@ -55,6 +55,9 @@
 		"csp_jug_support":3,
 		"csp_rickdiaz_strike":3,
 		"csp_rickdiaz_standard":3,
+		"csp_nytro_standard":4,
+		"csp_nytro_assault":4,
+		"csp_nytro_overdrive":2,
 	},
 
 	"combatMedium":{
@@ -102,15 +105,15 @@
 		"csp_remnantarmor_support":3,
 		"csp_remnantarmor_assault":3,
 		"csp_remnantarmor_escort":4,
+		"csp_remmantsupermech_standard":4,
+		"csp_remmantsupermech_strike":3,
+		"csp_remmantsupermech_escort":3,
 		},
 	"combatLarge":{
 		"csp_bonnetheadlg_assault":4,
 		"csp_bonnetheadlg_so":3,
 		"csp_hesperidesp_Standard":6,
-		"csp_hesperidesp_Strike":5	,
-		"csp_LGbazaarfalcon_standard":6,
-		"csp_LGbazaarfalcon_strike":6,
-		"csp_LGbazaarfalcon_overdrive":4,
+		"csp_hesperidesp_Strike":5,
 		"csp_enkindle_standard":5,
 		"csp_enkindle_support":4,
 		"csp_enkindle_assault":3,
@@ -132,6 +135,7 @@
 	},
 
 	"combatCapital":{
+		"csp_skystrikerLG_strike":4,
 		"csp_skystrikerLG_beam":4,
 		"csp_skystrikerLG_standard":5,
 		"csp_garudalg_standard":4,

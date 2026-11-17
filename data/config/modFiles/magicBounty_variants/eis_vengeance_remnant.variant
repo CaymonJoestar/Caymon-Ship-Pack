@@ -1,0 +1,68 @@
+{
+  "variantId": "eis_vengeance_remnant",
+  "hullId": "eis_vengeance",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 19,
+  "fluxVents": 30,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+    "sMods": [
+  "heavyarmor",
+  "reinforcedhull",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "csp_penaltylessautomated",
+    "targetingunit",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "eis_superheavy_needler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "heavyburst",
+        "WS0006": "heavyburst"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "tahlan_aetnos",
+        "WS0002": "tahlan_aetnos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0022": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tahlan_hekaton_rack",
+        "WS0004": "tahlan_hekaton_rack"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "eis_broadsword_wing",
+    "eis_broadsword_wing"
+  ]
+}

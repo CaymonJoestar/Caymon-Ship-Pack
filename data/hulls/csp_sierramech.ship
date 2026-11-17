@@ -1,0 +1,173 @@
+{
+  "hullName": "Diabellstar",
+  "hullId": "csp_sierramech",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/csp_remnantsuper_sierrabody.png",
+  "style": "DIABELL",
+  "height": 60,
+  "width": 57,
+  "center": [28, 25.5],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 68.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "csp_sierracraft",
+    "csp_himac",
+    "coherer"
+  ],
+  "builtInWeapons": {
+    "AGUN2": "csp_sierra_rightArm",
+    "E_LARM": "csp_sierra_blade",
+    "WS0001": "csp_sierra_shoulderLdeco",
+    "WS0002": "csp_sierra_shoulderRdeco",
+    "WS0003": "csp_sierra_autolancehead",
+    "WS0006": "csp_sierramech_body"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-25.5, 35.5],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-25.5, -35],
+      "renderOrderMod": 200
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": 0,
+      "locations": [7, -0],
+      "renderOrderMod": 400
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": 0,
+      "locations": [-4, -15],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -0,
+      "locations": [-4, 15],
+      "renderOrderMod": 300
+    },
+    {
+      "id": "AGUN2",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -10,
+      "locations": [11, -26]
+    },
+    {
+      "id": "E_LARM",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 55,
+      "angle": 15,
+      "locations": [10, 15]
+    },
+    {
+      "id": "TGUN2",
+      "size": "LARGE",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -10,
+      "locations": [11, -26]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 70,
+      "angle": -0,
+      "locations": [4.5, -0.5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [26, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-22.5, -8.5],
+      "length": 40,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-22.5, 9],
+      "length": 40,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21.5, -16.5],
+      "length": 28,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    },
+    {
+      "location": [-21.5, 17],
+      "length": 28,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "HIGH_TECH"
+    }
+  ],
+  "bounds": [
+    -22.5, 20,
+    -18, 26,
+    19.5, 22,
+    30.5, 12,
+    30.5, -13,
+    19.5, -23,
+    -18, -27,
+    -22.5, -21,
+    -22.5, -5,
+    -7.5, -3,
+    -7.5, 3,
+    -22.5, 4
+  ]
+}

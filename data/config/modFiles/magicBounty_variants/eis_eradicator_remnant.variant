@@ -1,0 +1,78 @@
+{
+  "variantId": "eis_eradicator_remnant",
+  "hullId": "eis_eradicator",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 20,
+  "fluxVents": 27,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "heavyarmor",
+  "reinforcedhull",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "targetingunit",
+    "csp_penaltylessautomated",
+    "armoredweapons"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 000": "sabot",
+        "WS 001": "sabot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 002": "atropos",
+        "WS 003": "atropos",
+        "WS 004": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 005": "eis_dualrailgun",
+        "WS 007": "eis_dualrailgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 006": "tahlan_aetnos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 009": "vulcan",
+        "WS 010": "vulcan",
+        "WS 011": "vulcan"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 008": "vulcan",
+        "WS 012": "vulcan",
+        "WS 013": "vulcan",
+        "WS 014": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

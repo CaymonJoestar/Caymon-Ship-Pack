@@ -1,0 +1,72 @@
+{
+  "variantId": "csp_skystrikerLG_strike",
+  "hullId": "csp_skystrikerLG",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 48,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "hardenedshieldemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "kineticblaster",
+        "WS0004": "kineticblaster"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "irautolance",
+        "WS0006": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "atropos",
+        "WS0008": "atropos",
+        "WS0009": "atropos",
+        "WS0010": "atropos"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "mininglaser",
+        "WS0012": "mininglaser",
+        "WS0013": "mininglaser",
+        "WS0014": "mininglaser",
+        "WS0015": "mininglaser",
+        "WS0016": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "gigacannon",
+        "WS0002": "gigacannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "longbow_wing",
+    "longbow_wing"
+  ]
+}

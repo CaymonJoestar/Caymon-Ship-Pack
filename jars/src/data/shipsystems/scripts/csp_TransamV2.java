@@ -1,10 +1,7 @@
 package data.shipsystems.scripts;
 
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.combat.CombatEngineLayers;
-import com.fs.starfarer.api.combat.MutableShipStatsAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
-import com.fs.starfarer.api.combat.ShipSystemAPI;
+import com.fs.starfarer.api.combat.*;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.impl.combat.BaseShipSystemScript;
 import com.fs.starfarer.api.util.IntervalUtil;
@@ -38,9 +35,9 @@ public class csp_TransamV2 extends BaseShipSystemScript {
 
 	//public static final float INCOMING_DAMAGE_MULT = 0.25f;
 	public static final float INCOMING_DAMAGE_CAPITAL = 0.5f;
-	public static final Color JITTER_COLOR = new Color(219,74,101,35);
-	public static final Color JITTER_UNDER_COLOR = new Color(219,74,101,105);
-    private final Color AFTER_IMAGE_COLOR = new Color(219,74,101,105);
+	public static final Color JITTER_COLOR = new Color(65, 30, 115,35);
+	public static final Color JITTER_UNDER_COLOR = new Color(65, 30, 115,105);
+    private final Color AFTER_IMAGE_COLOR = new Color(65, 30, 115,105);
 	private final IntervalUtil interval = new IntervalUtil(0.2f, 0.2f);
 
     @Override
@@ -79,6 +76,38 @@ public class csp_TransamV2 extends BaseShipSystemScript {
 							1f,
 							CombatEngineLayers.BELOW_SHIPS_LAYER
 					);
+					for (WeaponAPI w : ship.getAllWeapons()) {
+						Global.getSettings().getSprite(w.getSpec().getTurretSpriteName());
+						//armaa_valkazardEffect;
+						if (w.getSpec().getType() == WeaponAPI.WeaponType.MISSILE && w.getAmmo() < 0) {
+							continue;
+						}
+						if (w.getBarrelSpriteAPI() != null) {
+							//Explicitly for Valkazard compat, since apparently can't access barrelsprite id through api and using the api itself also modifies the color of the original
+							SpriteAPI spr = Global.getSettings().getSprite(w.getSpec().getHardpointSpriteName());
+
+							MagicRender.battlespace(
+									spr,
+									new Vector2f(w.getLocation().getX() + trueOffsetX, w.getLocation().getY() + trueOffsetY),
+									new Vector2f(0, 0),
+									new Vector2f(w.getBarrelSpriteAPI().getWidth(), w.getBarrelSpriteAPI().getHeight()),
+									new Vector2f(0, 0),
+									w.getCurrAngle() - 90f,
+									0f,
+									new Color(255, 200, 200, 155),
+									true,
+									0.1f,
+									0.15f,
+									0.2f,
+									0,
+									0,
+									0,
+									0,
+									0,
+									CombatEngineLayers.BELOW_SHIPS_LAYER);
+
+						}
+					}
 				}
 			}
 		} else {
@@ -86,7 +115,9 @@ public class csp_TransamV2 extends BaseShipSystemScript {
 		}
 		float bonusPercent = DAMAGE_BONUS_PERCENT * effectLevel;
 		stats.getEnergyWeaponDamageMult().modifyPercent(id, bonusPercent);
+		stats.getBallisticWeaponDamageMult().modifyPercent(id, bonusPercent);
 		stats.getEnergyWeaponFluxCostMod().modifyMult(id, 1f - (FLUX_REDUCTION * 0.01f));
+		stats.getBallisticWeaponFluxCostMod().modifyMult(id, 1f - (FLUX_REDUCTION * 0.01f));
 		stats.getHardFluxDissipationFraction().modifyFlat(id, (float)HARD_FLUX_DISSIPATION_PERCENT * 0.01f);
 
 		effectLevel = 1f;
@@ -187,6 +218,8 @@ public class csp_TransamV2 extends BaseShipSystemScript {
 		stats.getArmorDamageTakenMult().unmodify(id);
 		stats.getEmpDamageTakenMult().unmodify(id);
 		stats.getEnergyWeaponFluxCostMod().unmodify(id);
+		stats.getBallisticWeaponFluxCostMod().unmodify(id);
+		stats.getBallisticWeaponDamageMult().unmodify(id);
 		stats.getHardFluxDissipationFraction().unmodify(id);
 	}
 

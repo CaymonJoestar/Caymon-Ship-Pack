@@ -1,0 +1,44 @@
+{
+  "variantId": "armaa_monitor_standard_xiv_remnant",
+  "hullId": "armaa_monitor_xiv",
+  "displayName": "Remnantized",
+  "goalVariant": true,
+  "fluxCapacitors": 17,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [
+    "automated",
+    "csp_xivremnant"
+  ],
+  "sMods": [
+  "reinforcedhull",
+  "armoredweapons",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [
+    "targetingunit",
+    "csp_penaltylessautomated",
+    "missleracks",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "gorgonpod",
+        "WS0007": "gorgonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "gazer",
+        "WS0004": "gazer"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

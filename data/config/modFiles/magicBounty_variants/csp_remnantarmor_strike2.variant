@@ -1,0 +1,68 @@
+{
+  "variantId": "csp_remnantarmor_strike2",
+  "hullId": "csp_remnantarmor",
+  "displayName": "Strike",
+  "goalVariant": false,
+  "fluxCapacitors": 17,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "sMods": [
+  "fluxdistributor",
+  "missile_autoloader",
+  "escort_package",
+  "hardenedshieldemitter"
+  ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "armaa_fluxcannon"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "mininglaser",
+        "WS0003": "mininglaser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hammer"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "MAIN_GUN": "tahlan_ryza"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sabot"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "vulcan"
+      }
+    },
+  ],
+  "modules": [
+    {
+      "MODULE": "csp_luster_assault"
+    }
+  ],
+  "wings": []
+}

@@ -7,6 +7,8 @@ import com.fs.starfarer.api.impl.hullmods.ShardSpawner;
 import com.fs.starfarer.api.loading.FighterWingSpecAPI;
 import data.scripts.campaign.csp_DerelictsSpawnScript;
 import data.scripts.campaign.fleets.LGDragoon;
+import data.scripts.world.Lone_world_gen;
+import data.scripts.world.csp_Gen;
 
 
 public class csp_ModPlugin extends BaseModPlugin {
@@ -65,6 +67,24 @@ public class csp_ModPlugin extends BaseModPlugin {
                 if (Global.getSettings().getHullSpec("csp_dijeh") != null) {
                     Global.getSector().getFaction("mercenary").getKnownShips().add("csp_dijeh"); }
 
+                { if (Global.getSettings().getHullSpec("csp_rickdiaz") != null)
+                    Global.getSettings().getHullSpec("csp_rickdiaz").addTag("luddic_church");}
+
+                { if (Global.getSettings().getHullSpec("csp_dijeh") != null)
+                    Global.getSettings().getHullSpec("csp_dijeh").addTag("hegemony");}
+
+                { if (Global.getSettings().getHullSpec("csp_dijeh") != null)
+                    Global.getSettings().getHullSpec("csp_dijeh").addTag("merc");}
+
+                { if (Global.getSettings().getHullSpec("csp_luster") != null)
+                    Global.getSettings().getHullSpec("csp_luster").addTag("remnant");}
+
+                { if (Global.getSettings().getHullSpec("csp_remnantarmor") != null)
+                    Global.getSettings().getHullSpec("csp_remnantarmor").addTag("remnant");}
+
+                { if (Global.getSettings().getHullSpec("csp_jug") != null)
+                    Global.getSettings().getHullSpec("csp_jug").addTag("derelict");}
+
                 { if (Global.getSettings().getHullSpec("csp_dijeh") != null)
                     Global.getSettings().getHullSpec("csp_dijeh").addTag("lowtech_bp");}
 
@@ -88,5 +108,8 @@ public class csp_ModPlugin extends BaseModPlugin {
 
     public void onNewGameAfterProcGen() {
         csp_DerelictsSpawnScript.spawnDerelicts(Global.getSector());
+    }
+    public void onNewGame() {
+        (new csp_Gen()).generate(Global.getSector());
     }
 }
