@@ -4,7 +4,7 @@
 	"author":"Caymon",
 	"version":"1.2.6",
 	"description":"Just another Ship pack.",
-	"gameVersion":"0.98a-RC5",
+	"gameVersion":"0.98.5a-RC7",
 	"dependencies": [
         {
             "id": "MagicLib",
